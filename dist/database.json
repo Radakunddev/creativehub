@@ -1,0 +1,1068 @@
+{
+  "metadata": {
+    "created_at": "2025-06-18T19:01:06Z",
+    "version": "1.0",
+    "total_items": 60,
+    "last_updated": "2025-06-18T19:30:00Z",
+    "description": "Átfogó adatbázis ingyenes kreatív assetekről és AI eszközökről kereskedelmi használatra",
+    "author": "MiniMax Agent",
+    "license": "CC BY 4.0"
+  },
+  "categories": {
+    "creative_assets": {
+      "video_templates": [
+        {
+          "name": "Retro Shape Title",
+          "type": "video_template",
+          "category": "premiere_pro",
+          "tags": [
+            "retro",
+            "title",
+            "animation",
+            "cinema"
+          ],
+          "description": "Retro alakzat animációk keretes címmel",
+          "source_url": "https://mixkit.co/free-premiere-pro-templates/retro-shape-title-517/",
+          "license_type": "free",
+          "popularity_score": 85,
+          "platform": "Premiere Pro",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "Particle Ripple Logo",
+          "type": "video_template",
+          "category": "premiere_pro",
+          "tags": [
+            "particles",
+            "logo",
+            "reveal",
+            "professional"
+          ],
+          "description": "Részecskék vonala a képernyőn keresztül, logó felfedéssel",
+          "source_url": "https://mixkit.co/free-premiere-pro-templates/particle-ripple-logo-506/",
+          "license_type": "free",
+          "popularity_score": 90,
+          "platform": "Premiere Pro",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "Creative Modern Opener",
+          "type": "video_template",
+          "category": "premiere_pro",
+          "tags": [
+            "modern",
+            "opener",
+            "fast",
+            "minimal"
+          ],
+          "description": "Gyors, minimal nyitány gyors átmenetekkel és overlay-ekkel",
+          "source_url": "https://mixkit.co/free-premiere-pro-templates/creative-modern-opener-486/",
+          "license_type": "free",
+          "popularity_score": 88,
+          "platform": "Premiere Pro",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "Animated 3D Reveal",
+          "type": "video_template",
+          "category": "after_effects",
+          "tags": [
+            "3d",
+            "reveal",
+            "logo",
+            "animation"
+          ],
+          "description": "3D mozgó logó felfedés alakzat animációkkal",
+          "source_url": "https://mixkit.co/free-after-effects-templates/animated-3d-reveal-561/",
+          "license_type": "free",
+          "popularity_score": 92,
+          "platform": "After Effects",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "Splash Logo Reveal",
+          "type": "video_template",
+          "category": "after_effects",
+          "tags": [
+            "splash",
+            "colorful",
+            "logo",
+            "reveal"
+          ],
+          "description": "Színes tinta fröccsenés logó felfedéssel",
+          "source_url": "https://mixkit.co/free-after-effects-templates/splash-logo-reveal-565/",
+          "license_type": "free",
+          "popularity_score": 87,
+          "platform": "After Effects",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "Simple Instagram Story Text",
+          "type": "video_template",
+          "category": "after_effects",
+          "tags": [
+            "instagram",
+            "story",
+            "social_media",
+            "text"
+          ],
+          "description": "Egyszerű Instagram Story szöveg sablon swipe prompttal",
+          "source_url": "https://mixkit.co/free-after-effects-templates/simple-instagram-story-text-627/",
+          "license_type": "free",
+          "popularity_score": 89,
+          "platform": "After Effects",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "Line Drop Lower Third",
+          "type": "video_template",
+          "category": "davinci_resolve",
+          "tags": [
+            "lower_third",
+            "professional",
+            "line",
+            "animation"
+          ],
+          "description": "Fő cím és alcím elválasztó vonallal és 'drop' animációval",
+          "source_url": "https://mixkit.co/free-davinci-resolve-templates/line-drop-lower-third-678/",
+          "license_type": "free",
+          "popularity_score": 86,
+          "platform": "DaVinci Resolve",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "Fast Text Transition Title",
+          "type": "video_template",
+          "category": "davinci_resolve",
+          "tags": [
+            "text",
+            "transition",
+            "fast",
+            "dynamic"
+          ],
+          "description": "Gyors szöveg animáció változó háttérszínekkel és logó felfedéssel",
+          "source_url": "https://mixkit.co/free-davinci-resolve-templates/fast-text-transition-title-684/",
+          "license_type": "free",
+          "popularity_score": 84,
+          "platform": "DaVinci Resolve",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "CapCut Commercial Templates",
+          "type": "video_template",
+          "category": "capcut",
+          "tags": [
+            "commercial",
+            "business",
+            "marketing",
+            "social_media"
+          ],
+          "description": "Kereskedelmi célú video sablonok CapCut-ban",
+          "source_url": "https://www.capcut.com/explore/Commercial-use/7497624216624187409",
+          "license_type": "free_with_platform",
+          "popularity_score": 82,
+          "platform": "CapCut",
+          "thumbnail_url": ""
+        }
+      ],
+      "luts_transitions_overlays": [
+        {
+          "name": "Fresh LUTs Collection",
+          "type": "lut_pack",
+          "category": "color_grading",
+          "tags": [
+            "cinematic",
+            "color_grading",
+            "film_look",
+            "professional"
+          ],
+          "description": "Világ legnagyobb ingyenes LUT gyűjteménye, 3+ millió letöltéssel",
+          "source_url": "https://freshluts.com/",
+          "license_type": "free",
+          "popularity_score": 95,
+          "platform": "Premiere Pro, DaVinci Resolve, After Effects",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "Color Grading Central 70 Free LUTs",
+          "type": "lut_pack",
+          "category": "color_grading",
+          "tags": [
+            "hollywood",
+            "film_look",
+            "professional",
+            "log_to_rec709"
+          ],
+          "description": "70 ingyenes LUT profi coloristaktól, Hollywood filmek stílusában",
+          "source_url": "https://www.colorgradingcentral.com/free-luts/",
+          "license_type": "free",
+          "popularity_score": 93,
+          "platform": "Premiere Pro, DaVinci Resolve, FCPX",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "Lutify.me Cinematic LUTs",
+          "type": "lut_pack",
+          "category": "color_grading",
+          "tags": [
+            "cinematic",
+            "film_emulation",
+            "professional",
+            "print_film"
+          ],
+          "description": "5 ingyenes cinematic LUT valós filmes méréseken alapulva",
+          "source_url": "https://lutify.me/free-luts/",
+          "license_type": "free_with_account",
+          "popularity_score": 88,
+          "platform": "Multiple",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "Zoom Transition",
+          "type": "transition",
+          "category": "premiere_pro",
+          "tags": [
+            "zoom",
+            "blur",
+            "transition",
+            "professional"
+          ],
+          "description": "Befelé zoom átmenet klipek között él elmosódással",
+          "source_url": "https://mixkit.co/free-premiere-pro-templates/zoom-transition-131/",
+          "license_type": "free",
+          "popularity_score": 89,
+          "platform": "Premiere Pro",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "Twirling Bokeh Transition",
+          "type": "transition",
+          "category": "premiere_pro",
+          "tags": [
+            "bokeh",
+            "elegant",
+            "smooth",
+            "professional"
+          ],
+          "description": "Elegáns bokeh átmenet enyhe fókusz csavarással",
+          "source_url": "https://mixkit.co/free-premiere-pro-templates/twirling-bokeh-transition-471/",
+          "license_type": "free",
+          "popularity_score": 87,
+          "platform": "Premiere Pro",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "Free Light Leaks Collection",
+          "type": "overlay",
+          "category": "light_effects",
+          "tags": [
+            "light_leaks",
+            "vintage",
+            "film",
+            "overlay"
+          ],
+          "description": "26 ingyenes light leak overlay nagy felbontásban filmekhez",
+          "source_url": "https://motionarray.com/learn/video-effects/free-light-leaks-overlays/",
+          "license_type": "free",
+          "popularity_score": 91,
+          "platform": "Universal",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "Pixabay Video Overlays",
+          "type": "overlay",
+          "category": "effects",
+          "tags": [
+            "overlay",
+            "4k",
+            "commercial_use",
+            "particles"
+          ],
+          "description": "1000+ ingyenes overlay és particle videó 4K-ban",
+          "source_url": "https://pixabay.com/videos/search/overlay/",
+          "license_type": "free_commercial",
+          "popularity_score": 94,
+          "platform": "Universal",
+          "thumbnail_url": ""
+        }
+      ],
+      "canva_psd_figma_templates": [
+        {
+          "name": "Figma Community Templates",
+          "type": "design_template",
+          "category": "figma",
+          "tags": [
+            "figma",
+            "collaborative",
+            "300_templates",
+            "free"
+          ],
+          "description": "300+ ingyenes design és whiteboard sablon Figma-ban",
+          "source_url": "https://www.figma.com/templates/",
+          "license_type": "free",
+          "popularity_score": 94,
+          "platform": "Figma",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "Canva Templates",
+          "type": "design_template",
+          "category": "canva",
+          "tags": [
+            "canva",
+            "thousands",
+            "drag_drop",
+            "occasions"
+          ],
+          "description": "Több ezer gyönyörű ingyenes sablon Canva-ban",
+          "source_url": "https://www.canva.com/templates/",
+          "license_type": "free_with_platform",
+          "popularity_score": 96,
+          "platform": "Canva",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "Freepik Canva PSD Templates",
+          "type": "design_template",
+          "category": "psd",
+          "tags": [
+            "psd",
+            "canva_style",
+            "commercial_use",
+            "freepik"
+          ],
+          "description": "Népszerű Canva stílusú PSD sablonok kereskedelmi használatra",
+          "source_url": "https://www.freepik.com/psd/canva",
+          "license_type": "free_commercial",
+          "popularity_score": 88,
+          "platform": "Photoshop",
+          "thumbnail_url": ""
+        }
+      ],
+      "fonts": [
+        {
+          "name": "Google Fonts",
+          "type": "font_library",
+          "category": "web_fonts",
+          "tags": [
+            "open_source",
+            "web_fonts",
+            "variable",
+            "commercial_use"
+          ],
+          "description": "1840+ nyílt forráskódú betűtípus család kereskedelmi használatra",
+          "source_url": "https://fonts.google.com/",
+          "license_type": "open_font_license",
+          "popularity_score": 98,
+          "platform": "Web, Desktop",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "Fontshare",
+          "type": "font_library",
+          "category": "professional_fonts",
+          "tags": [
+            "quality",
+            "professional",
+            "free",
+            "variable"
+          ],
+          "description": "Minőségi betűtípusok ingyenesen az Indian Type Foundry-tól",
+          "source_url": "https://www.fontshare.com/",
+          "license_type": "free_commercial",
+          "popularity_score": 92,
+          "platform": "Desktop, Web",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "Fontesk Commercial Fonts",
+          "type": "font_library",
+          "category": "commercial_fonts",
+          "tags": [
+            "commercial_use",
+            "curated",
+            "quality",
+            "free"
+          ],
+          "description": "6200+ kurátált ingyenes betűtípus kereskedelmi használatra",
+          "source_url": "https://fontesk.com/license/free-for-commercial-use/",
+          "license_type": "free_commercial",
+          "popularity_score": 89,
+          "platform": "Desktop",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "Roboto",
+          "type": "font",
+          "category": "sans_serif",
+          "tags": [
+            "google",
+            "variable",
+            "modern",
+            "readable"
+          ],
+          "description": "Modern, változtatható (3 tengely) sans-serif betűtípus",
+          "source_url": "https://fonts.google.com/specimen/Roboto",
+          "license_type": "open_font_license",
+          "popularity_score": 97,
+          "platform": "Universal",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "Open Sans",
+          "type": "font",
+          "category": "sans_serif",
+          "tags": [
+            "google",
+            "readable",
+            "variable",
+            "popular"
+          ],
+          "description": "Népszerű, változtatható (3 tengely) olvasható sans-serif",
+          "source_url": "https://fonts.google.com/specimen/Open+Sans",
+          "license_type": "open_font_license",
+          "popularity_score": 96,
+          "platform": "Universal",
+          "thumbnail_url": ""
+        }
+      ],
+      "sound_fx_music": [
+        {
+          "name": "Mixkit Sound Effects",
+          "type": "sound_library",
+          "category": "sound_effects",
+          "tags": [
+            "royalty_free",
+            "commercial_use",
+            "variety",
+            "video"
+          ],
+          "description": "Ingyenes hangeffektek könyvtár videókhoz - royalty free",
+          "source_url": "https://mixkit.co/free-sound-effects/",
+          "license_type": "royalty_free",
+          "popularity_score": 93,
+          "platform": "Universal",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "Pixabay Audio",
+          "type": "audio_library",
+          "category": "sound_effects_music",
+          "tags": [
+            "100k_sounds",
+            "commercial_use",
+            "no_attribution",
+            "variety"
+          ],
+          "description": "100,000+ ingyenes hangeffekt és zene jogdíjmentesen",
+          "source_url": "https://pixabay.com/sound-effects/",
+          "license_type": "pixabay_license",
+          "popularity_score": 95,
+          "platform": "Universal",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "Freesound",
+          "type": "sound_library",
+          "category": "sound_effects",
+          "tags": [
+            "creative_commons",
+            "community",
+            "695k_sounds",
+            "collaborative"
+          ],
+          "description": "695,609 ingyenes hang Creative Commons licenccel",
+          "source_url": "https://freesound.org/",
+          "license_type": "creative_commons",
+          "popularity_score": 91,
+          "platform": "Universal",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "ZapSplat",
+          "type": "audio_library",
+          "category": "sound_effects_music",
+          "tags": [
+            "160k_sounds",
+            "commercial_use",
+            "professional",
+            "music"
+          ],
+          "description": "160,000+ hangeffekt és 650+ royalty free zeneszám",
+          "source_url": "https://www.zapsplat.com/",
+          "license_type": "free_with_account",
+          "popularity_score": 89,
+          "platform": "Universal",
+          "thumbnail_url": ""
+        }
+      ],
+      "3d_models": [
+        {
+          "name": "Free3D",
+          "type": "3d_library",
+          "category": "3d_models",
+          "tags": [
+            "15k_models",
+            "multiple_formats",
+            "variety",
+            "free_commercial"
+          ],
+          "description": "15,000+ ingyenes 3D modell különböző formátumokban",
+          "source_url": "https://free3d.com/",
+          "license_type": "mixed_free_commercial",
+          "popularity_score": 92,
+          "platform": "Blender, 3ds Max, Maya, etc.",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "BlenderKit",
+          "type": "3d_library",
+          "category": "blender_assets",
+          "tags": [
+            "43k_assets",
+            "commercial_license",
+            "materials",
+            "hdris"
+          ],
+          "description": "43,326 ingyenes 3D modell, anyag, HDRI Blenderhez",
+          "source_url": "https://www.blenderkit.com/",
+          "license_type": "commercial_noncommercial",
+          "popularity_score": 94,
+          "platform": "Blender",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "Sports Car",
+          "type": "3d_model",
+          "category": "vehicles",
+          "tags": [
+            "car",
+            "sports",
+            "popular",
+            "detailed"
+          ],
+          "description": "Részletes sportautó 3D modell",
+          "source_url": "https://free3d.com/3d-model/sports-car",
+          "license_type": "free",
+          "popularity_score": 88,
+          "platform": "Multiple formats",
+          "thumbnail_url": ""
+        }
+      ],
+      "icons_svg": [
+        {
+          "name": "SVG Repo",
+          "type": "icon_library",
+          "category": "svg_icons",
+          "tags": [
+            "500k_icons",
+            "commercial_use",
+            "optimized",
+            "ml_search"
+          ],
+          "description": "500,000+ ingyenes SVG ikon kereskedelmi használatra",
+          "source_url": "https://www.svgrepo.com/",
+          "license_type": "open_source",
+          "popularity_score": 96,
+          "platform": "Web, Desktop",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "UXWing",
+          "type": "icon_library",
+          "category": "commercial_icons",
+          "tags": [
+            "commercial_use",
+            "no_attribution",
+            "optimized",
+            "exclusive"
+          ],
+          "description": "Exkluzív ingyenes ikonok kereskedelmi projektekhez attribúció nélkül",
+          "source_url": "https://uxwing.com/",
+          "license_type": "commercial_no_attribution",
+          "popularity_score": 91,
+          "platform": "Web, Desktop",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "Flaticon",
+          "type": "icon_library",
+          "category": "icons_stickers",
+          "tags": [
+            "18m_icons",
+            "variety",
+            "popular",
+            "multiple_formats"
+          ],
+          "description": "18.1M+ vektor ikon és matrica PNG, SVG, EPS formátumban",
+          "source_url": "https://www.flaticon.com/",
+          "license_type": "free_with_attribution",
+          "popularity_score": 94,
+          "platform": "Web, Desktop",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "Icons8",
+          "type": "icon_library",
+          "category": "icons",
+          "tags": [
+            "1.4m_icons",
+            "animated",
+            "consistent",
+            "popular"
+          ],
+          "description": "1,427,800 ingyenes ikon következetes minőségben",
+          "source_url": "https://icons8.com/icons",
+          "license_type": "free_with_link",
+          "popularity_score": 93,
+          "platform": "Web, Desktop",
+          "thumbnail_url": ""
+        }
+      ],
+      "social_media_templates": [
+        {
+          "name": "Instagram Story Templates",
+          "type": "social_media_template",
+          "category": "instagram",
+          "tags": [
+            "instagram",
+            "stories",
+            "animated",
+            "trendy"
+          ],
+          "description": "Animált és statikus Instagram Story sablonok",
+          "source_url": "https://www.canva.com/templates/instagram-stories/",
+          "license_type": "free_with_platform",
+          "popularity_score": 92,
+          "platform": "Multiple",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "TikTok Video Templates",
+          "type": "social_media_template",
+          "category": "tiktok",
+          "tags": [
+            "tiktok",
+            "viral",
+            "trends",
+            "short_form"
+          ],
+          "description": "Tiktok videó sablonok virális trendekhez",
+          "source_url": "https://www.canva.com/templates/tiktok-videos/",
+          "license_type": "free_with_platform",
+          "popularity_score": 90,
+          "platform": "Multiple",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "YouTube Thumbnail Templates",
+          "type": "social_media_template",
+          "category": "youtube",
+          "tags": [
+            "youtube",
+            "thumbnails",
+            "clickbait",
+            "professional"
+          ],
+          "description": "YouTube thumbnail sablonok professzionális megjelenéshez",
+          "source_url": "https://www.canva.com/templates/youtube-thumbnails/",
+          "license_type": "free_with_platform",
+          "popularity_score": 91,
+          "platform": "Multiple",
+          "thumbnail_url": ""
+        }
+      ]
+    },
+    "ai_tools": {
+      "ai_image_generators": [
+        {
+          "name": "Canva AI Image Generator",
+          "type": "ai_image_generator",
+          "category": "text_to_image",
+          "tags": [
+            "magic_media",
+            "dream_lab",
+            "styles",
+            "commercial"
+          ],
+          "description": "Szövegből kép generálás különböző művészeti stílusokban",
+          "source_url": "https://www.canva.com/ai-image-generator/",
+          "license_type": "free_limited_pro_full",
+          "popularity_score": 92,
+          "platform": "Web",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "CGDream",
+          "type": "ai_image_generator",
+          "category": "advanced_ai",
+          "tags": [
+            "flux_models",
+            "3d_integration",
+            "commercial_rights",
+            "upscaling"
+          ],
+          "description": "Fejlett AI képgenerátor Flux modellekkel és 3D integrációval",
+          "source_url": "https://cgdream.ai/",
+          "license_type": "free_trial_paid_commercial",
+          "popularity_score": 89,
+          "platform": "Web",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "Adobe Firefly",
+          "type": "ai_image_generator",
+          "category": "commercial_safe",
+          "tags": [
+            "adobe_stock",
+            "commercial_safe",
+            "professional",
+            "enterprise"
+          ],
+          "description": "Kereskedelmi használatra biztonságos AI képgenerátor Adobe Stock képeken betanítva",
+          "source_url": "https://www.adobe.com/products/firefly.html",
+          "license_type": "commercial_safe",
+          "popularity_score": 95,
+          "platform": "Web, Adobe Suite",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "DALL-E 3 (via ChatGPT)",
+          "type": "ai_image_generator",
+          "category": "text_to_image",
+          "tags": [
+            "openai",
+            "chatgpt",
+            "realistic",
+            "creative"
+          ],
+          "description": "Fejlett szövegből kép AI ChatGPT-n keresztül",
+          "source_url": "https://chat.openai.com/",
+          "license_type": "usage_rights_vary",
+          "popularity_score": 94,
+          "platform": "Web, API",
+          "thumbnail_url": ""
+        }
+      ],
+      "ai_video_tools": [
+        {
+          "name": "Runway ML",
+          "type": "ai_video_tool",
+          "category": "video_generation",
+          "tags": [
+            "gen2",
+            "text_to_video",
+            "professional",
+            "creative"
+          ],
+          "description": "AI videógenerátor és szerkesztő eszköz",
+          "source_url": "https://runwayml.com/",
+          "license_type": "freemium",
+          "popularity_score": 91,
+          "platform": "Web",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "Pika Labs",
+          "type": "ai_video_tool",
+          "category": "video_generation",
+          "tags": [
+            "text_to_video",
+            "image_to_video",
+            "community"
+          ],
+          "description": "AI videógenerátor közösségi platformmal",
+          "source_url": "https://pika.art/",
+          "license_type": "free_with_credits",
+          "popularity_score": 87,
+          "platform": "Web, Discord",
+          "thumbnail_url": ""
+        }
+      ],
+      "ai_voice_cloning_tts": [
+        {
+          "name": "ElevenLabs",
+          "type": "ai_voice_cloning",
+          "category": "text_to_speech",
+          "tags": [
+            "voice_cloning",
+            "realistic",
+            "multilingual",
+            "api"
+          ],
+          "description": "Reális beszéd generálás AI-vel 1000+ hanggal és 32 nyelven",
+          "source_url": "https://elevenlabs.io/",
+          "license_type": "freemium_commercial",
+          "popularity_score": 95,
+          "platform": "Web, API",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "PlayHT",
+          "type": "ai_voice_cloning",
+          "category": "text_to_speech",
+          "tags": [
+            "voice_cloning",
+            "30_second_sample",
+            "commercial_use",
+            "realistic"
+          ],
+          "description": "Hangklónozás 30 másodperces mintából, kereskedelmi használatra",
+          "source_url": "https://play.ht/",
+          "license_type": "freemium_commercial",
+          "popularity_score": 91,
+          "platform": "Web, API",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "Murf AI",
+          "type": "ai_voice_cloning",
+          "category": "text_to_speech",
+          "tags": [
+            "professional",
+            "voices",
+            "multilingual",
+            "quality"
+          ],
+          "description": "Professzionális AI hangok szövegből beszédbe alakítással",
+          "source_url": "https://murf.ai/",
+          "license_type": "freemium_commercial",
+          "popularity_score": 88,
+          "platform": "Web",
+          "thumbnail_url": ""
+        }
+      ],
+      "ai_music_generators": [
+        {
+          "name": "Suno AI",
+          "type": "ai_music_generator",
+          "category": "music_generation",
+          "tags": [
+            "text_to_music",
+            "vocals",
+            "popular",
+            "creative"
+          ],
+          "description": "AI zenei generátor szöveges promptokból",
+          "source_url": "https://suno.ai/",
+          "license_type": "free_limited_paid_commercial",
+          "popularity_score": 93,
+          "platform": "Web",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "Mubert",
+          "type": "ai_music_generator",
+          "category": "background_music",
+          "tags": [
+            "background_music",
+            "streaming",
+            "api",
+            "commercial"
+          ],
+          "description": "AI háttérzene generátor tartalomkészítőknek",
+          "source_url": "https://mubert.com/",
+          "license_type": "freemium_commercial",
+          "popularity_score": 86,
+          "platform": "Web, API",
+          "thumbnail_url": ""
+        }
+      ],
+      "ai_face_animator": [],
+      "ai_caption_script_writers": [
+        {
+          "name": "Hootsuite AI Caption Generator",
+          "type": "ai_caption_writer",
+          "category": "social_media",
+          "tags": [
+            "social_media",
+            "facebook",
+            "instagram",
+            "twitter",
+            "linkedin"
+          ],
+          "description": "Ingyenes AI felirat generátor közösségi médiához",
+          "source_url": "https://www.hootsuite.com/social-media-tools/ai-caption-generator-social-media",
+          "license_type": "free",
+          "popularity_score": 92,
+          "platform": "Web",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "Copy.ai Writing Tools",
+          "type": "ai_script_writer",
+          "category": "content_writing",
+          "tags": [
+            "writing",
+            "copywriting",
+            "templates",
+            "variety"
+          ],
+          "description": "Ingyenes AI írás generátorok és eszközök",
+          "source_url": "https://www.copy.ai/tools",
+          "license_type": "freemium",
+          "popularity_score": 90,
+          "platform": "Web",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "VEED Script Generator",
+          "type": "ai_script_writer",
+          "category": "video_scripts",
+          "tags": [
+            "video_scripts",
+            "youtube",
+            "marketing",
+            "educational"
+          ],
+          "description": "Ingyenes AI videó script generátor regisztráció nélkül",
+          "source_url": "https://www.veed.io/tools/script-generator",
+          "license_type": "free",
+          "popularity_score": 87,
+          "platform": "Web",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "Canva Magic Write",
+          "type": "ai_script_writer",
+          "category": "content_writing",
+          "tags": [
+            "canva",
+            "integrated",
+            "brainstorming",
+            "versatile"
+          ],
+          "description": "AI szöveg generátor és írás asszisztens Canva-ban",
+          "source_url": "https://www.canva.com/magic-write/",
+          "license_type": "freemium",
+          "popularity_score": 89,
+          "platform": "Web",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "Rytr",
+          "type": "ai_script_writer",
+          "category": "content_writing",
+          "tags": [
+            "writing_assistant",
+            "content_generator",
+            "free",
+            "upgrade"
+          ],
+          "description": "Ingyenes AI írás asszisztens és tartalom generátor",
+          "source_url": "https://rytr.me/",
+          "license_type": "freemium",
+          "popularity_score": 86,
+          "platform": "Web",
+          "thumbnail_url": ""
+        }
+      ],
+      "ai_background_remover": [
+        {
+          "name": "Adobe Express Background Remover",
+          "type": "ai_background_remover",
+          "category": "image_editing",
+          "tags": [
+            "adobe",
+            "professional",
+            "fast",
+            "free"
+          ],
+          "description": "Ingyenes AI háttér eltávolító Adobe Express-ben",
+          "source_url": "https://www.adobe.com/express/feature/ai/image/remove-background",
+          "license_type": "free",
+          "popularity_score": 93,
+          "platform": "Web",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "Remove.bg",
+          "type": "ai_background_remover",
+          "category": "image_editing",
+          "tags": [
+            "automatic",
+            "no_signup",
+            "fast",
+            "commercial"
+          ],
+          "description": "Automatikus háttér eltávolítás AI-vel, regisztráció nélkül",
+          "source_url": "https://removal.ai/",
+          "license_type": "freemium",
+          "popularity_score": 96,
+          "platform": "Web",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "PhotoRoom Background Remover",
+          "type": "ai_background_remover",
+          "category": "image_editing",
+          "tags": [
+            "instant",
+            "free",
+            "no_signup",
+            "mobile"
+          ],
+          "description": "Azonnali háttér eltávolítás AI eszközzel, regisztráció nélkül",
+          "source_url": "https://www.photoroom.com/tools/background-remover",
+          "license_type": "freemium",
+          "popularity_score": 89,
+          "platform": "Web, Mobile",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "UnlimitedBG",
+          "type": "ai_background_remover",
+          "category": "image_editing",
+          "tags": [
+            "unlimited",
+            "free",
+            "professional",
+            "bulk"
+          ],
+          "description": "Korlátlan ingyenes AI háttér eltávolítás professzionális minőségben",
+          "source_url": "https://unlimitedbg.com/",
+          "license_type": "free",
+          "popularity_score": 85,
+          "platform": "Web",
+          "thumbnail_url": ""
+        }
+      ],
+      "ai_social_media_designers": [
+        {
+          "name": "Canva AI Designer",
+          "type": "ai_social_media_designer",
+          "category": "automated_design",
+          "tags": [
+            "canva",
+            "automated",
+            "social_media",
+            "templates"
+          ],
+          "description": "AI-alapú design automatizálás közösségi médiához Canva-ban",
+          "source_url": "https://www.canva.com/",
+          "license_type": "freemium",
+          "popularity_score": 93,
+          "platform": "Web",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "Uizard AI Designer",
+          "type": "ai_social_media_designer",
+          "category": "ui_design",
+          "tags": [
+            "ui_design",
+            "wireframes",
+            "mockups",
+            "ai"
+          ],
+          "description": "AI-alapú UI/UX design eszköz wireframe-ektől mockup-okig",
+          "source_url": "https://uizard.io/",
+          "license_type": "freemium",
+          "popularity_score": 85,
+          "platform": "Web",
+          "thumbnail_url": ""
+        }
+      ]
+    }
+  }
+}
