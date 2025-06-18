@@ -92,6 +92,30 @@ function App() {
     window.scrollTo(0, 0);
   }, [viewMode, searchQuery, selectedCategory]);
 
+  const handleNavigateToHomeSection = (sectionHref: string) => {
+    handleBackToHome(); // Resets viewMode to 'home' and clears other states
+
+    // Use requestAnimationFrame to wait for DOM update after state change
+    requestAnimationFrame(() => {
+      // A second rAF can be more robust for waiting for layout and paint
+      requestAnimationFrame(() => {
+        const sectionId = sectionHref.substring(1); // Remove '#'
+        if (sectionId === 'home' || sectionId === '') {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        } else {
+          const element = document.getElementById(sectionId);
+          if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+          } else {
+            console.warn(`[App.tsx] Element with ID '${sectionId}' not found for scrolling.`);
+            // Fallback to top if specific section not found after view change
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          }
+        }
+      });
+    });
+  };
+
   return (
     <ThemeProvider>
       <div className="min-h-screen bg-white dark:bg-gray-900 transition-colors duration-200">
@@ -99,6 +123,7 @@ function App() {
         <Header 
           onSearch={handleSearch}
           searchQuery={searchQuery}
+          onNavigate={handleNavigateToHomeSection} // New prop
         />
 
         {/* Main Content */}
