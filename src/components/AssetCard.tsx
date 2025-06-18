@@ -8,27 +8,46 @@ interface AssetCardProps {
 }
 
 export const AssetCard: React.FC<AssetCardProps> = ({ item, className = '' }) => {
-  const [currentImageSrc, setCurrentImageSrc] = useState<string | undefined | null>(item.thumbnail_url);
-  const [fallbackLevel, setFallbackLevel] = useState(0); // 0: thumbnail, 1: subcategory, 2: main category, 3: text
+  // Fallback levels: 0: meta_image_url, 1: thumbnail_url, 2: subcategory, 3: main category, 4: text
+  const [currentImageSrc, setCurrentImageSrc] = useState<string | undefined | null>(null);
+  const [fallbackLevel, setFallbackLevel] = useState(0);
 
   useEffect(() => {
-    setCurrentImageSrc(item.thumbnail_url);
-    setFallbackLevel(0);
-  }, [item.thumbnail_url]);
+    if (item.meta_image_url) {
+      setCurrentImageSrc(item.meta_image_url);
+      setFallbackLevel(0);
+    } else if (item.thumbnail_url) {
+      setCurrentImageSrc(item.thumbnail_url);
+      setFallbackLevel(1);
+    } else if (categoryImages[item.subcategory]) {
+      setCurrentImageSrc(categoryImages[item.subcategory]);
+      setFallbackLevel(2);
+    } else {
+      const mainCatFallbackKey = item.category_main === 'ai_tools' ? 'ai_image_generators' : 'video_templates';
+      if (categoryImages[mainCatFallbackKey]) {
+          setCurrentImageSrc(categoryImages[mainCatFallbackKey]);
+          setFallbackLevel(3);
+      } else {
+          setCurrentImageSrc(null);
+          setFallbackLevel(4);
+      }
+    }
+  }, [item.id, item.meta_image_url, item.thumbnail_url, item.subcategory, item.category_main]);
 
   const handleImageError = () => {
-    if (fallbackLevel === 0) { // Tried item.thumbnail_url
-      setCurrentImageSrc(categoryImages[item.subcategory]);
+    if (fallbackLevel === 0) { // Failed meta_image_url
+      setCurrentImageSrc(item.thumbnail_url);
       setFallbackLevel(1);
-    } else if (fallbackLevel === 1) { // Tried subcategory image
-      const mainCategoryFallback = item.category_main === 'ai_tools'
-        ? categoryImages['ai_image_generators'] // Representative AI category
-        : categoryImages['video_templates']; // Representative Creative category
-      setCurrentImageSrc(mainCategoryFallback);
+    } else if (fallbackLevel === 1) { // Failed thumbnail_url
+      setCurrentImageSrc(categoryImages[item.subcategory]);
       setFallbackLevel(2);
-    } else { // Tried main category image
-      setCurrentImageSrc(null); // No more image fallbacks
+    } else if (fallbackLevel === 2) { // Failed subcategory image
+      const mainCatFallbackKey = item.category_main === 'ai_tools' ? 'ai_image_generators' : 'video_templates';
+      setCurrentImageSrc(categoryImages[mainCatFallbackKey]);
       setFallbackLevel(3);
+    } else if (fallbackLevel === 3) { // Failed main category image
+      setCurrentImageSrc(null); // Trigger text placeholder
+      setFallbackLevel(4);
     }
   };
 
@@ -101,9 +120,9 @@ export const AssetCard: React.FC<AssetCardProps> = ({ item, className = '' }) =>
       {/* Thumbnail */}
       <div className="relative px-4 mb-4">
         <div className="aspect-video bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-700 dark:to-gray-600 rounded-lg overflow-hidden relative">
-          {fallbackLevel < 3 && currentImageSrc ? (
+          {fallbackLevel < 4 && currentImageSrc ? (
             <img 
-              key={currentImageSrc} // Force re-render on src change for onError
+              key={currentImageSrc}
               src={currentImageSrc}
               alt={item.name}
               loading="lazy"
@@ -119,7 +138,7 @@ export const AssetCard: React.FC<AssetCardProps> = ({ item, className = '' }) =>
               </div>
             </div>
           )}
-          {/* Overlay on hover - this can remain as is, but ensure it's on top */}
+          {/* Overlay on hover - this can remain as is */}
           <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
             <ExternalLink className="w-8 h-8 text-white" />
           </div>

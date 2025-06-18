@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Search, Menu, X, Sun, Moon, Palette, Database } from 'lucide-react';
+import { Search, Menu, X, Sun, Moon, Palette, Database, XCircle } from 'lucide-react';
 import { useTheme } from '../contexts/ThemeContext';
 import { dataService, type DatabaseItem } from '../services/dataService';
 
@@ -108,12 +108,26 @@ export const Header: React.FC<HeaderProps> = ({ onSearch, searchQuery }) => {
                 onChange={(e) => onSearch(e.target.value)}
                 onFocus={handleSearchFocus}
                 placeholder="Search assets, tools, or categories..."
-                className={`block w-full pl-10 pr-3 py-2 border rounded-lg text-sm transition-all duration-200 ${
+                className={`block w-full pl-10 pr-10 py-2 border rounded-lg text-sm transition-all duration-200 ${ // Increased pr-10 for clear button
                   isSearchFocused 
                     ? 'border-blue-500 ring-2 ring-blue-500/20 dark:border-blue-400' 
                     : 'border-gray-300 dark:border-gray-600'
                 } bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 placeholder-gray-500 dark:placeholder-gray-400 focus:outline-none`}
               />
+              {searchQuery && (
+                <button
+                  onClick={() => {
+                    onSearch('');
+                    // Optionally focus the input after clearing:
+                    // const inputElement = searchRef.current?.querySelector('input');
+                    // inputElement?.focus();
+                  }}
+                  className="absolute inset-y-0 right-0 pr-3 flex items-center text-gray-400 hover:text-gray-600 dark:text-gray-500 dark:hover:text-gray-300"
+                  aria-label="Clear search"
+                >
+                  <XCircle className="h-5 w-5" />
+                </button>
+              )}
             </div>
 
             {/* Search Suggestions */}
