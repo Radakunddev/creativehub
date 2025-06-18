@@ -87,6 +87,11 @@ function App() {
     }
   }, [viewMode, searchQuery, selectedCategory]);
 
+  // Scroll to top when view mode or main identifiers change
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [viewMode, searchQuery, selectedCategory]);
+
   return (
     <ThemeProvider>
       <div className="min-h-screen bg-white dark:bg-gray-900 transition-colors duration-200">

@@ -117,7 +117,7 @@ export const FilterControls: React.FC<FilterControlsProps> = ({
             {hasActiveFilters && (
               <button
                 onClick={clearFilters}
-                className="flex items-center space-x-2 px-3 py-2 text-red-600 dark:text-red-400 hover:bg-red-50 dark:hover:bg-red-900/20 rounded-lg transition-colors duration-200"
+                className="flex items-center space-x-2 px-3 py-2 text-sm font-medium text-red-700 bg-red-100 hover:bg-red-200 dark:text-red-300 dark:bg-red-700/30 dark:hover:bg-red-700/50 rounded-md border border-red-200 dark:border-red-500/50 transition-colors duration-150"
               >
                 <X className="w-4 h-4" />
                 <span>Clear Filters</span>

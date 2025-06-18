@@ -26,7 +26,8 @@
           "license_type": "free",
           "popularity_score": 85,
           "platform": "Premiere Pro",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": "https://assets.mixkit.co/site-meta/mixkit-meta-image.png"
         },
         {
           "name": "Particle Ripple Logo",
@@ -43,7 +44,8 @@
           "license_type": "free",
           "popularity_score": 90,
           "platform": "Premiere Pro",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": "https://assets.mixkit.co/site-meta/mixkit-meta-image.png"
         },
         {
           "name": "Creative Modern Opener",
@@ -60,7 +62,8 @@
           "license_type": "free",
           "popularity_score": 88,
           "platform": "Premiere Pro",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": "https://assets.mixkit.co/site-meta/mixkit-meta-image.png"
         },
         {
           "name": "Animated 3D Reveal",
@@ -77,7 +80,8 @@
           "license_type": "free",
           "popularity_score": 92,
           "platform": "After Effects",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": "https://assets.mixkit.co/site-meta/mixkit-meta-image.png"
         },
         {
           "name": "Splash Logo Reveal",
@@ -94,7 +98,8 @@
           "license_type": "free",
           "popularity_score": 87,
           "platform": "After Effects",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": "https://assets.mixkit.co/site-meta/mixkit-meta-image.png"
         },
         {
           "name": "Simple Instagram Story Text",
@@ -111,7 +116,8 @@
           "license_type": "free",
           "popularity_score": 89,
           "platform": "After Effects",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": "https://assets.mixkit.co/site-meta/mixkit-meta-image.png"
         },
         {
           "name": "Line Drop Lower Third",
@@ -128,7 +134,8 @@
           "license_type": "free",
           "popularity_score": 86,
           "platform": "DaVinci Resolve",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": "https://assets.mixkit.co/site-meta/mixkit-meta-image.png"
         },
         {
           "name": "Fast Text Transition Title",
@@ -145,7 +152,8 @@
           "license_type": "free",
           "popularity_score": 84,
           "platform": "DaVinci Resolve",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": "https://assets.mixkit.co/site-meta/mixkit-meta-image.png"
         },
         {
           "name": "CapCut Commercial Templates",
@@ -162,7 +170,8 @@
           "license_type": "free_with_platform",
           "popularity_score": 82,
           "platform": "CapCut",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": null
         }
       ],
       "luts_transitions_overlays": [
@@ -181,7 +190,8 @@
           "license_type": "free",
           "popularity_score": 95,
           "platform": "Premiere Pro, DaVinci Resolve, After Effects",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": "https://example.com/images/placeholder_og_for_undefined.jpg"
         },
         {
           "name": "Color Grading Central 70 Free LUTs",
@@ -198,7 +208,8 @@
           "license_type": "free",
           "popularity_score": 93,
           "platform": "Premiere Pro, DaVinci Resolve, FCPX",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": "https://example.com/images/placeholder_og_for_undefined.jpg"
         },
         {
           "name": "Lutify.me Cinematic LUTs",
@@ -215,7 +226,8 @@
           "license_type": "free_with_account",
           "popularity_score": 88,
           "platform": "Multiple",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": null
         },
         {
           "name": "Zoom Transition",
@@ -232,7 +244,8 @@
           "license_type": "free",
           "popularity_score": 89,
           "platform": "Premiere Pro",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": "https://assets.mixkit.co/site-meta/mixkit-meta-image.png"
         },
         {
           "name": "Twirling Bokeh Transition",
@@ -249,7 +262,8 @@
           "license_type": "free",
           "popularity_score": 87,
           "platform": "Premiere Pro",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": "https://assets.mixkit.co/site-meta/mixkit-meta-image.png"
         },
         {
           "name": "Free Light Leaks Collection",
@@ -266,7 +280,8 @@
           "license_type": "free",
           "popularity_score": 91,
           "platform": "Universal",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": null
         },
         {
           "name": "Pixabay Video Overlays",
@@ -283,7 +298,8 @@
           "license_type": "free_commercial",
           "popularity_score": 94,
           "platform": "Universal",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": "https://example.com/images/placeholder_og_for_undefined.jpg"
         }
       ],
       "canva_psd_figma_templates": [
@@ -302,7 +318,8 @@
           "license_type": "free",
           "popularity_score": 94,
           "platform": "Figma",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": "https://example.com/images/figma_og_placeholder_for_undefined.jpg"
         },
         {
           "name": "Canva Templates",
@@ -319,7 +336,8 @@
           "license_type": "free_with_platform",
           "popularity_score": 96,
           "platform": "Canva",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": "https://static.canva.com/static/images/fb_og_image_en.png"
         },
         {
           "name": "Freepik Canva PSD Templates",
@@ -336,7 +354,8 @@
           "license_type": "free_commercial",
           "popularity_score": 88,
           "platform": "Photoshop",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": "https://example.com/images/placeholder_og_for_undefined.jpg"
         }
       ],
       "fonts": [
@@ -355,7 +374,8 @@
           "license_type": "open_font_license",
           "popularity_score": 98,
           "platform": "Web, Desktop",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": "https://example.com/images/placeholder_og_for_undefined.jpg"
         },
         {
           "name": "Fontshare",
@@ -372,7 +392,8 @@
           "license_type": "free_commercial",
           "popularity_score": 92,
           "platform": "Desktop, Web",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": "https://fontshare.com/images/og-image.png"
         },
         {
           "name": "Fontesk Commercial Fonts",
@@ -389,7 +410,8 @@
           "license_type": "free_commercial",
           "popularity_score": 89,
           "platform": "Desktop",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": "https://example.com/images/placeholder_og_for_undefined.jpg"
         },
         {
           "name": "Roboto",
@@ -406,7 +428,8 @@
           "license_type": "open_font_license",
           "popularity_score": 97,
           "platform": "Universal",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": "https://example.com/images/placeholder_og_for_undefined.jpg"
         },
         {
           "name": "Open Sans",
@@ -423,7 +446,8 @@
           "license_type": "open_font_license",
           "popularity_score": 96,
           "platform": "Universal",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": null
         }
       ],
       "sound_fx_music": [
@@ -442,7 +466,8 @@
           "license_type": "royalty_free",
           "popularity_score": 93,
           "platform": "Universal",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": "https://assets.mixkit.co/site-meta/mixkit-meta-image.png"
         },
         {
           "name": "Pixabay Audio",
@@ -459,7 +484,8 @@
           "license_type": "pixabay_license",
           "popularity_score": 95,
           "platform": "Universal",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": "https://example.com/images/placeholder_og_for_undefined.jpg"
         },
         {
           "name": "Freesound",
@@ -476,7 +502,8 @@
           "license_type": "creative_commons",
           "popularity_score": 91,
           "platform": "Universal",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": null
         },
         {
           "name": "ZapSplat",
@@ -493,7 +520,8 @@
           "license_type": "free_with_account",
           "popularity_score": 89,
           "platform": "Universal",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": "https://example.com/images/placeholder_og_for_undefined.jpg"
         }
       ],
       "3d_models": [
@@ -512,7 +540,8 @@
           "license_type": "mixed_free_commercial",
           "popularity_score": 92,
           "platform": "Blender, 3ds Max, Maya, etc.",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": "https://example.com/images/placeholder_og_for_undefined.jpg"
         },
         {
           "name": "BlenderKit",
@@ -529,7 +558,8 @@
           "license_type": "commercial_noncommercial",
           "popularity_score": 94,
           "platform": "Blender",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": null
         },
         {
           "name": "Sports Car",
@@ -546,7 +576,8 @@
           "license_type": "free",
           "popularity_score": 88,
           "platform": "Multiple formats",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": "https://example.com/images/placeholder_og_for_undefined.jpg"
         }
       ],
       "icons_svg": [
@@ -565,7 +596,8 @@
           "license_type": "open_source",
           "popularity_score": 96,
           "platform": "Web, Desktop",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": "https://example.com/images/placeholder_og_for_undefined.jpg"
         },
         {
           "name": "UXWing",
@@ -582,7 +614,8 @@
           "license_type": "commercial_no_attribution",
           "popularity_score": 91,
           "platform": "Web, Desktop",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": null
         },
         {
           "name": "Flaticon",
@@ -599,7 +632,8 @@
           "license_type": "free_with_attribution",
           "popularity_score": 94,
           "platform": "Web, Desktop",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": "https://example.com/images/placeholder_og_for_undefined.jpg"
         },
         {
           "name": "Icons8",
@@ -616,7 +650,8 @@
           "license_type": "free_with_link",
           "popularity_score": 93,
           "platform": "Web, Desktop",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": "https://example.com/images/placeholder_og_for_undefined.jpg"
         }
       ],
       "social_media_templates": [
@@ -635,7 +670,8 @@
           "license_type": "free_with_platform",
           "popularity_score": 92,
           "platform": "Multiple",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": "https://static.canva.com/static/images/fb_og_image_en.png"
         },
         {
           "name": "TikTok Video Templates",
@@ -652,7 +688,8 @@
           "license_type": "free_with_platform",
           "popularity_score": 90,
           "platform": "Multiple",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": "https://static.canva.com/static/images/fb_og_image_en.png"
         },
         {
           "name": "YouTube Thumbnail Templates",
@@ -669,7 +706,8 @@
           "license_type": "free_with_platform",
           "popularity_score": 91,
           "platform": "Multiple",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": "https://static.canva.com/static/images/fb_og_image_en.png"
         }
       ]
     },
@@ -690,7 +728,8 @@
           "license_type": "free_limited_pro_full",
           "popularity_score": 92,
           "platform": "Web",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": "https://static.canva.com/static/images/fb_og_image_en.png"
         },
         {
           "name": "CGDream",
@@ -707,7 +746,8 @@
           "license_type": "free_trial_paid_commercial",
           "popularity_score": 89,
           "platform": "Web",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": "https://example.com/images/placeholder_og_for_undefined.jpg"
         },
         {
           "name": "Adobe Firefly",
@@ -724,7 +764,8 @@
           "license_type": "commercial_safe",
           "popularity_score": 95,
           "platform": "Web, Adobe Suite",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": "https://example.com/images/placeholder_og_for_undefined.jpg"
         },
         {
           "name": "DALL-E 3 (via ChatGPT)",
@@ -741,7 +782,8 @@
           "license_type": "usage_rights_vary",
           "popularity_score": 94,
           "platform": "Web, API",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": null
         }
       ],
       "ai_video_tools": [
@@ -760,7 +802,8 @@
           "license_type": "freemium",
           "popularity_score": 91,
           "platform": "Web",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": "https://example.com/images/placeholder_og_for_undefined.jpg"
         },
         {
           "name": "Pika Labs",
@@ -776,7 +819,8 @@
           "license_type": "free_with_credits",
           "popularity_score": 87,
           "platform": "Web, Discord",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": "https://example.com/images/placeholder_og_for_undefined.jpg"
         }
       ],
       "ai_voice_cloning_tts": [
@@ -795,7 +839,8 @@
           "license_type": "freemium_commercial",
           "popularity_score": 95,
           "platform": "Web, API",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": null
         },
         {
           "name": "PlayHT",
@@ -812,7 +857,8 @@
           "license_type": "freemium_commercial",
           "popularity_score": 91,
           "platform": "Web, API",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": "https://example.com/images/placeholder_og_for_undefined.jpg"
         },
         {
           "name": "Murf AI",
@@ -829,7 +875,8 @@
           "license_type": "freemium_commercial",
           "popularity_score": 88,
           "platform": "Web",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": "https://example.com/images/placeholder_og_for_undefined.jpg"
         }
       ],
       "ai_music_generators": [
@@ -848,7 +895,8 @@
           "license_type": "free_limited_paid_commercial",
           "popularity_score": 93,
           "platform": "Web",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": null
         },
         {
           "name": "Mubert",
@@ -865,7 +913,8 @@
           "license_type": "freemium_commercial",
           "popularity_score": 86,
           "platform": "Web, API",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": "https://example.com/images/placeholder_og_for_undefined.jpg"
         }
       ],
       "ai_face_animator": [],
@@ -886,7 +935,8 @@
           "license_type": "free",
           "popularity_score": 92,
           "platform": "Web",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": "https://example.com/images/placeholder_og_for_undefined.jpg"
         },
         {
           "name": "Copy.ai Writing Tools",
@@ -903,7 +953,8 @@
           "license_type": "freemium",
           "popularity_score": 90,
           "platform": "Web",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": null
         },
         {
           "name": "VEED Script Generator",
@@ -920,7 +971,8 @@
           "license_type": "free",
           "popularity_score": 87,
           "platform": "Web",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": "https://example.com/images/placeholder_og_for_undefined.jpg"
         },
         {
           "name": "Canva Magic Write",
@@ -937,7 +989,8 @@
           "license_type": "freemium",
           "popularity_score": 89,
           "platform": "Web",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": "https://static.canva.com/static/images/fb_og_image_en.png"
         },
         {
           "name": "Rytr",
@@ -954,7 +1007,8 @@
           "license_type": "freemium",
           "popularity_score": 86,
           "platform": "Web",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": null
         }
       ],
       "ai_background_remover": [
@@ -973,7 +1027,8 @@
           "license_type": "free",
           "popularity_score": 93,
           "platform": "Web",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": "https://example.com/images/placeholder_og_for_undefined.jpg"
         },
         {
           "name": "Remove.bg",
@@ -990,7 +1045,8 @@
           "license_type": "freemium",
           "popularity_score": 96,
           "platform": "Web",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": "https://example.com/images/placeholder_og_for_undefined.jpg"
         },
         {
           "name": "PhotoRoom Background Remover",
@@ -1007,7 +1063,8 @@
           "license_type": "freemium",
           "popularity_score": 89,
           "platform": "Web, Mobile",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": null
         },
         {
           "name": "UnlimitedBG",
@@ -1024,7 +1081,8 @@
           "license_type": "free",
           "popularity_score": 85,
           "platform": "Web",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": "https://example.com/images/placeholder_og_for_undefined.jpg"
         }
       ],
       "ai_social_media_designers": [
@@ -1043,7 +1101,8 @@
           "license_type": "freemium",
           "popularity_score": 93,
           "platform": "Web",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": "https://static.canva.com/static/images/fb_og_image_en.png"
         },
         {
           "name": "Uizard AI Designer",
@@ -1060,7 +1119,8 @@
           "license_type": "freemium",
           "popularity_score": 85,
           "platform": "Web",
-          "thumbnail_url": ""
+          "thumbnail_url": "",
+          "meta_image_url": null
         }
       ]
     }

@@ -12,6 +12,7 @@ export interface DatabaseItem {
   popularity_score: number;
   platform: string;
   thumbnail_url: string;
+  meta_image_url?: string; // Added for fetched meta images
   category_main: 'creative_assets' | 'ai_tools';
   subcategory: string;
 }
