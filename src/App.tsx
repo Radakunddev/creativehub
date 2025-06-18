@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { ThemeProvider } from './contexts/ThemeContext';
 import { Header } from './components/Header';
 import { HeroSection } from './components/HeroSection';
-import { FeaturedSection } from './components/FeaturedSection';
 import { CategoriesSection } from './components/CategoriesSection';
+import { FeaturedSection } from './components/FeaturedSection';
 import { AssetsGrid } from './components/AssetsGrid';
 import { Footer } from './components/Footer';
 
@@ -54,7 +54,7 @@ function App() {
 
   // Handle explore from hero
   const handleExploreClick = () => {
-    document.getElementById('featured')?.scrollIntoView({ behavior: 'smooth' });
+    document.getElementById('categories')?.scrollIntoView({ behavior: 'smooth' });
   };
 
   // Handle back to home
@@ -108,13 +108,15 @@ function App() {
               {/* Hero Section */}
               <HeroSection onExploreClick={handleExploreClick} />
               
-              {/* Featured Section */}
+              {/* Categories Section - Moved above Featured */}
+              <div id="categories">
+                <CategoriesSection onCategorySelect={handleCategorySelect} />
+              </div>
+              
+              {/* Featured Section - Now below Categories */}
               <div id="featured">
                 <FeaturedSection onViewAllClick={handleViewAllAssets} />
               </div>
-              
-              {/* Categories Section */}
-              <CategoriesSection onCategorySelect={handleCategorySelect} />
               
               {/* AI Tools Section */}
               <section id="ai-tools" className="py-16 bg-white dark:bg-gray-800">
