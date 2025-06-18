@@ -29,7 +29,7 @@ export const AssetsGrid: React.FC<AssetsGridProps> = ({
 }) => {
   const [allItems, setAllItems] = useState<DatabaseItem[]>([]);
   const [loading, setLoading] = useState(true);
-  const [filters, setFilters] = useState<Filters>(initialFilters);
+  const [filters, setFilters] = useState<Filters>({}); // Initialized empty, will be populated from URL or initialFilters
   const [sort, setSort] = useState<{ by: 'popularity' | 'name' | 'recent'; order: 'asc' | 'desc' }>({
     by: 'popularity',
     order: 'desc'
@@ -38,7 +38,40 @@ export const AssetsGrid: React.FC<AssetsGridProps> = ({
   const [itemsPerPage, setItemsPerPage] = useState(12);
   const [currentPage, setCurrentPage] = useState(1);
 
+  // Effect to initialize state from URL and load items
   useEffect(() => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const urlSearch = urlParams.get('search');
+    const urlCategory = urlParams.get('category');
+    const urlType = urlParams.get('type');
+    const urlLicense = urlParams.get('license');
+    const urlPlatform = urlParams.get('platform');
+    const urlTags = urlParams.get('tags');
+    const urlSortBy = urlParams.get('sortBy') as 'popularity' | 'name' | 'recent' | null;
+    const urlSortOrder = urlParams.get('sortOrder') as 'asc' | 'desc' | null;
+    const urlPage = urlParams.get('page');
+
+    setFilters({
+      category: urlCategory || initialFilters.category || undefined,
+      type: urlType || initialFilters.type || undefined,
+      license: urlLicense || initialFilters.license || undefined,
+      platform: urlPlatform || initialFilters.platform || undefined,
+      tags: urlTags ? urlTags.split(',') : initialFilters.tags || [],
+    });
+
+    if (urlSortBy) {
+      setSort({ by: urlSortBy, order: urlSortOrder || 'desc' });
+    } else {
+      setSort({ by: 'popularity', order: 'desc' });
+    }
+
+    setCurrentPage(urlPage ? parseInt(urlPage, 10) : 1);
+
+    // If URL has a search query, it overrides the prop for initial state setting
+    // The App component will handle updating the searchQuery prop if the URL changes
+    // For now, we let searchQuery prop dictate search if no 'search' in URL.
+    // The second useEffect will sync URL with searchQuery prop if it changes.
+
     const loadItems = async () => {
       setLoading(true);
       try {
@@ -51,17 +84,43 @@ export const AssetsGrid: React.FC<AssetsGridProps> = ({
       }
     };
     loadItems();
-  }, []);
+  }, [initialFilters]); // Rerun if initialFilters change, e.g. category navigation
+
+  // Effect to update URL when state changes
+  useEffect(() => {
+    const params = new URLSearchParams();
+    if (searchQuery) params.set('search', searchQuery); // searchQuery prop from App
+    if (filters.category) params.set('category', filters.category);
+    if (filters.type) params.set('type', filters.type);
+    if (filters.license) params.set('license', filters.license);
+    if (filters.platform) params.set('platform', filters.platform);
+    if (filters.tags && filters.tags.length > 0) params.set('tags', filters.tags.join(','));
+
+    if (sort.by !== 'popularity' || sort.order !== 'desc') {
+      params.set('sortBy', sort.by);
+      params.set('sortOrder', sort.order);
+    }
+
+    if (currentPage > 1) params.set('page', currentPage.toString());
+
+    const newQueryString = params.toString();
+    const newUrl = newQueryString
+      ? `${window.location.pathname}?${newQueryString}`
+      : window.location.pathname;
+
+    window.history.pushState({ path: newUrl }, '', newUrl);
+  }, [searchQuery, filters, sort, currentPage]);
 
   // Filter and sort items
   const filteredAndSortedItems = useMemo(() => {
     let result = allItems;
 
-    // Apply search
-    if (searchQuery) {
+    // Apply search (searchQuery prop is the source of truth for search term)
+    const currentSearchQuery = searchQuery; // Use the prop directly
+    if (currentSearchQuery) {
       result = result.filter(item => {
         const searchableText = `${item.name} ${item.description} ${item.tags.join(' ')} ${item.platform}`.toLowerCase();
-        return searchableText.includes(searchQuery.toLowerCase());
+        return searchableText.includes(currentSearchQuery.toLowerCase());
       });
     }
 
@@ -80,26 +139,30 @@ export const AssetsGrid: React.FC<AssetsGridProps> = ({
     }
     if (filters.tags && filters.tags.length > 0) {
       result = result.filter(item => 
-        filters.tags!.every(tag => 
-          item.tags.some(itemTag => itemTag.toLowerCase().includes(tag.toLowerCase()))
-        )
+        filters.tags!.every(tag => {
+          const lowerTag = tag.toLowerCase();
+          return item.tags.some(itemTag => itemTag.toLowerCase().includes(lowerTag));
+        })
       );
     }
 
     // Apply sorting
+    // Ensure a stable sort if scores are equal, e.g., by name
     result = [...result].sort((a, b) => {
       let comparison = 0;
       
       switch (sort.by) {
         case 'popularity':
           comparison = b.popularity_score - a.popularity_score;
+          if (comparison === 0) comparison = a.name.localeCompare(b.name); // Secondary sort
           break;
         case 'name':
           comparison = a.name.localeCompare(b.name);
           break;
         case 'recent':
-          // For now, we'll use popularity as a proxy for recency
+          // For now, we'll use popularity_score as a proxy for recency (higher is newer)
           comparison = b.popularity_score - a.popularity_score;
+          if (comparison === 0) comparison = a.name.localeCompare(b.name); // Secondary sort
           break;
       }
       
@@ -107,7 +170,7 @@ export const AssetsGrid: React.FC<AssetsGridProps> = ({
     });
 
     return result;
-  }, [allItems, searchQuery, filters, sort]);
+  }, [allItems, searchQuery, filters, sort]); // searchQuery is a prop, filters and sort are state
 
   // Pagination
   const totalPages = Math.ceil(filteredAndSortedItems.length / itemsPerPage);
@@ -117,13 +180,14 @@ export const AssetsGrid: React.FC<AssetsGridProps> = ({
   );
 
   const handleFiltersChange = (newFilters: Filters) => {
+    // When filters change, update the state. The useEffect for URL update will handle the rest.
     setFilters(newFilters);
-    setCurrentPage(1); // Reset to first page when filters change
+    setCurrentPage(1);
   };
 
-  const handleSortChange = (sortBy: 'popularity' | 'name' | 'recent', order: 'asc' | 'desc') => {
-    setSort({ by: sortBy, order });
-    setCurrentPage(1); // Reset to first page when sort changes
+  const handleSortChange = (newSortBy: 'popularity' | 'name' | 'recent', newOrder: 'asc' | 'desc') => {
+    setSort({ by: newSortBy, order: newOrder });
+    setCurrentPage(1);
   };
 
   const getGridClass = () => {
@@ -252,8 +316,13 @@ export const AssetsGrid: React.FC<AssetsGridProps> = ({
             </p>
             <button
               onClick={() => {
-                setFilters({});
+                // Clearing filters means setting them to empty/default values
+                // The searchQuery prop is managed by App.tsx, so we don't clear it here directly.
+                // If there's a desire to clear search via this button, App.tsx would need a callback.
+                setFilters({ tags: [] }); // Clear all filters, keeping tags as an empty array
+                setSort({ by: 'popularity', order: 'desc' }); // Reset sort
                 setCurrentPage(1);
+                // The useEffect for URL update will sync this.
               }}
               className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200"
             >
@@ -283,22 +352,27 @@ export const AssetsGrid: React.FC<AssetsGridProps> = ({
                   Previous
                 </button>
                 
-                {[...Array(Math.min(5, totalPages))].map((_, i) => {
-                  const pageNumber = i + 1;
-                  return (
-                    <button
-                      key={pageNumber}
-                      onClick={() => setCurrentPage(pageNumber)}
-                      className={`px-4 py-2 rounded-lg transition-colors duration-200 ${
-                        currentPage === pageNumber
-                          ? 'bg-blue-600 text-white'
-                          : 'bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-200 border border-gray-300 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-700'
-                      }`}
-                    >
-                      {pageNumber}
-                    </button>
-                  );
-                })}
+                {/* Basic pagination: show current page and immediate next/prev for simplicity */}
+                {/* A more advanced pagination could show more page numbers */}
+                {currentPage > 2 && (
+                  <button onClick={() => setCurrentPage(1)} className="px-4 py-2 rounded-lg bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-200 border border-gray-300 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-700">1</button>
+                )}
+                {currentPage > 3 && <span className="px-2 py-2">...</span>}
+
+                {currentPage > 1 && (
+                  <button onClick={() => setCurrentPage(currentPage - 1)} className="px-4 py-2 rounded-lg bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-200 border border-gray-300 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-700">{currentPage - 1}</button>
+                )}
+
+                <button className="px-4 py-2 rounded-lg bg-blue-600 text-white">{currentPage}</button>
+
+                {currentPage < totalPages && (
+                  <button onClick={() => setCurrentPage(currentPage + 1)} className="px-4 py-2 rounded-lg bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-200 border border-gray-300 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-700">{currentPage + 1}</button>
+                )}
+
+                {currentPage < totalPages - 2 && <span className="px-2 py-2">...</span>}
+                {currentPage < totalPages -1 && (
+                   <button onClick={() => setCurrentPage(totalPages)} className="px-4 py-2 rounded-lg bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-200 border border-gray-300 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-700">{totalPages}</button>
+                )}
                 
                 <button
                   onClick={() => setCurrentPage(Math.min(totalPages, currentPage + 1))}

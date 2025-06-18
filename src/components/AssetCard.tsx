@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { ExternalLink, Download, Star, Tag, Award, Clock } from 'lucide-react';
-import { DatabaseItem } from '../services/dataService';
+import { DatabaseItem, categoryImages } from '../services/dataService';
 
 interface AssetCardProps {
   item: DatabaseItem;
@@ -8,6 +8,30 @@ interface AssetCardProps {
 }
 
 export const AssetCard: React.FC<AssetCardProps> = ({ item, className = '' }) => {
+  const [currentImageSrc, setCurrentImageSrc] = useState<string | undefined | null>(item.thumbnail_url);
+  const [fallbackLevel, setFallbackLevel] = useState(0); // 0: thumbnail, 1: subcategory, 2: main category, 3: text
+
+  useEffect(() => {
+    setCurrentImageSrc(item.thumbnail_url);
+    setFallbackLevel(0);
+  }, [item.thumbnail_url]);
+
+  const handleImageError = () => {
+    if (fallbackLevel === 0) { // Tried item.thumbnail_url
+      setCurrentImageSrc(categoryImages[item.subcategory]);
+      setFallbackLevel(1);
+    } else if (fallbackLevel === 1) { // Tried subcategory image
+      const mainCategoryFallback = item.category_main === 'ai_tools'
+        ? categoryImages['ai_image_generators'] // Representative AI category
+        : categoryImages['video_templates']; // Representative Creative category
+      setCurrentImageSrc(mainCategoryFallback);
+      setFallbackLevel(2);
+    } else { // Tried main category image
+      setCurrentImageSrc(null); // No more image fallbacks
+      setFallbackLevel(3);
+    }
+  };
+
   const getPopularityColor = (score: number) => {
     if (score >= 90) return 'text-green-600 dark:text-green-400';
     if (score >= 80) return 'text-blue-600 dark:text-blue-400';
@@ -76,27 +100,26 @@ export const AssetCard: React.FC<AssetCardProps> = ({ item, className = '' }) =>
 
       {/* Thumbnail */}
       <div className="relative px-4 mb-4">
-        <div className="aspect-video bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-700 dark:to-gray-600 rounded-lg overflow-hidden">
-          {item.thumbnail_url ? (
+        <div className="aspect-video bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-700 dark:to-gray-600 rounded-lg overflow-hidden relative">
+          {fallbackLevel < 3 && currentImageSrc ? (
             <img 
-              src={item.thumbnail_url} 
+              key={currentImageSrc} // Force re-render on src change for onError
+              src={currentImageSrc}
               alt={item.name}
+              loading="lazy"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-              onError={(e) => {
-                const target = e.target as HTMLImageElement;
-                target.style.display = 'none';
-                target.nextElementSibling?.classList.remove('hidden');
-              }}
+              onError={handleImageError}
             />
-          ) : null}
-          <div className={`${item.thumbnail_url ? 'hidden' : 'flex'} items-center justify-center h-full text-gray-400 dark:text-gray-500`}>
-            <div className="text-center">
-              <div className="text-4xl mb-2">{getCategoryIcon(item.category_main)}</div>
-              <p className="text-sm font-medium">{item.name}</p>
+          ) : (
+            // Text-based fallback
+            <div className="flex items-center justify-center h-full text-gray-400 dark:text-gray-500">
+              <div className="text-center">
+                <div className="text-4xl mb-2">{getCategoryIcon(item.category_main)}</div>
+                <p className="text-sm font-medium">{item.name}</p>
+              </div>
             </div>
-          </div>
-          
-          {/* Overlay on hover */}
+          )}
+          {/* Overlay on hover - this can remain as is, but ensure it's on top */}
           <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
             <ExternalLink className="w-8 h-8 text-white" />
           </div>

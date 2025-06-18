@@ -24,7 +24,8 @@ export interface DatabaseCategory {
   items: DatabaseItem[];
 }
 
-// Translation maps for Hungarian to English
+// --- Translation Data (Hungarian to English) ---
+// For a multilingual application, consider moving this data to separate JSON files per language.
 const categoryTranslations: Record<string, string> = {
   'video_templates': 'Video Templates',
   'luts_transitions_overlays': 'LUTs, Transitions & Overlays',
@@ -63,7 +64,7 @@ const categoryDescriptions: Record<string, string> = {
   'ai_social_media_designers': 'AI-powered social media design automation tools'
 };
 
-const categoryImages: Record<string, string> = {
+export const categoryImages: Record<string, string> = {
   'video_templates': '/images/categories/video-templates.jpg',
   'luts_transitions_overlays': '/images/categories/luts-transitions.jpg',
   'canva_psd_figma_templates': '/images/categories/templates.jpg',
@@ -147,6 +148,9 @@ class DataService {
   async getAllItems(): Promise<DatabaseItem[]> {
     const db = await this.loadDatabase();
     const items: DatabaseItem[] = [];
+    // TODO: Consider adding unique, stable IDs directly to database.json items.
+    // The current ID generation is sequential for this flat list and may differ
+    // from item IDs when fetched via getCategories().
     let id = 1;
 
     // Process creative assets
@@ -191,6 +195,7 @@ class DataService {
           description: categoryDescriptions[subcategory] || '',
           image: categoryImages[subcategory] || '/images/categories/default.jpg',
           items: (subcategoryItems as any[]).map((item, index) => ({
+            // Item IDs within categories are structured as: <mainCategoryPrefix_subcategoryName_itemIndex>
             id: `ca_${subcategory}_${index}`,
             ...item,
             description: translateDescription(item.description),
@@ -210,6 +215,7 @@ class DataService {
           description: categoryDescriptions[subcategory] || '',
           image: categoryImages[subcategory] || '/images/categories/ai-tools.png',
           items: (subcategoryItems as any[]).map((item, index) => ({
+            // Item IDs within categories are structured as: <mainCategoryPrefix_subcategoryName_itemIndex>
             id: `ai_${subcategory}_${index}`,
             ...item,
             description: translateDescription(item.description),
