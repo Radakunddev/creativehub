@@ -6,9 +6,10 @@ import { dataService, type DatabaseItem } from '../services/dataService';
 interface HeaderProps {
   onSearch: (query: string) => void;
   searchQuery: string;
+  onNavigate: (sectionHref: string) => void; // Add this line
 }
 
-export const Header: React.FC<HeaderProps> = ({ onSearch, searchQuery }) => {
+export const Header: React.FC<HeaderProps> = ({ onSearch, searchQuery, onNavigate }) => {
   const { theme, toggleTheme } = useTheme();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isSearchFocused, setIsSearchFocused] = useState(false);
@@ -69,7 +70,21 @@ export const Header: React.FC<HeaderProps> = ({ onSearch, searchQuery }) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex items-center space-x-2">
+          <div
+            className="flex items-center space-x-2 cursor-pointer" // Added cursor-pointer
+            onClick={(e) => { // Added onClick
+              e.preventDefault();
+              onNavigate('#home');
+            }}
+            role="link" // Added role for accessibility
+            tabIndex={0} // Added tabIndex for keyboard accessibility
+            onKeyDown={(e) => { // Added onKeyDown for keyboard accessibility
+              if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                onNavigate('#home');
+              }
+            }}
+          >
             <div className="flex items-center justify-center w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg">
               <Database className="w-6 h-6 text-white" />
             </div>
@@ -88,7 +103,11 @@ export const Header: React.FC<HeaderProps> = ({ onSearch, searchQuery }) => {
             {navigation.map((item) => (
               <a
                 key={item.name}
-                href={item.href}
+                href={item.href} // Keep href for semantics/fallback
+                onClick={(e) => {
+                  e.preventDefault();
+                  onNavigate(item.href);
+                }}
                 className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 font-medium transition-colors duration-200"
               >
                 {item.name}
@@ -192,8 +211,12 @@ export const Header: React.FC<HeaderProps> = ({ onSearch, searchQuery }) => {
               {navigation.map((item) => (
                 <a
                   key={item.name}
-                  href={item.href}
-                  onClick={() => setIsMenuOpen(false)}
+                  href={item.href} // Keep href for semantics/fallback
+                  onClick={(e) => {
+                    e.preventDefault();
+                    onNavigate(item.href);
+                    setIsMenuOpen(false);
+                  }}
                   className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors duration-200"
                 >
                   {item.name}
