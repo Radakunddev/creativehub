@@ -14,7 +14,7 @@
         {
           "name": "Retro Shape Title",
           "type": "video_template",
-          "category": "video_templates",
+          "category": "premiere_pro",
           "tags": [
             "retro",
             "title",
@@ -26,15 +26,12 @@
           "license_type": "free",
           "popularity_score": 85,
           "platform": "Premiere Pro",
-          "thumbnail_url": "",
-          "meta_image_url": "https://assets.mixkit.co/site-meta/mixkit-meta-image.png",
-          "category_main": "creative_assets",
-          "index": 0
+          "thumbnail_url": ""
         },
         {
           "name": "Particle Ripple Logo",
           "type": "video_template",
-          "category": "video_templates",
+          "category": "premiere_pro",
           "tags": [
             "particles",
             "logo",
@@ -46,15 +43,12 @@
           "license_type": "free",
           "popularity_score": 90,
           "platform": "Premiere Pro",
-          "thumbnail_url": "",
-          "meta_image_url": "https://assets.mixkit.co/site-meta/mixkit-meta-image.png",
-          "category_main": "creative_assets",
-          "index": 1
+          "thumbnail_url": ""
         },
         {
           "name": "Creative Modern Opener",
           "type": "video_template",
-          "category": "video_templates",
+          "category": "premiere_pro",
           "tags": [
             "modern",
             "opener",
@@ -66,15 +60,12 @@
           "license_type": "free",
           "popularity_score": 88,
           "platform": "Premiere Pro",
-          "thumbnail_url": "",
-          "meta_image_url": "https://assets.mixkit.co/site-meta/mixkit-meta-image.png",
-          "category_main": "creative_assets",
-          "index": 2
+          "thumbnail_url": ""
         },
         {
           "name": "Animated 3D Reveal",
           "type": "video_template",
-          "category": "video_templates",
+          "category": "after_effects",
           "tags": [
             "3d",
             "reveal",
@@ -86,15 +77,12 @@
           "license_type": "free",
           "popularity_score": 92,
           "platform": "After Effects",
-          "thumbnail_url": "",
-          "meta_image_url": "https://assets.mixkit.co/site-meta/mixkit-meta-image.png",
-          "category_main": "creative_assets",
-          "index": 3
+          "thumbnail_url": ""
         },
         {
           "name": "Splash Logo Reveal",
           "type": "video_template",
-          "category": "video_templates",
+          "category": "after_effects",
           "tags": [
             "splash",
             "colorful",
@@ -106,15 +94,12 @@
           "license_type": "free",
           "popularity_score": 87,
           "platform": "After Effects",
-          "thumbnail_url": "",
-          "meta_image_url": "https://assets.mixkit.co/site-meta/mixkit-meta-image.png",
-          "category_main": "creative_assets",
-          "index": 4
+          "thumbnail_url": ""
         },
         {
           "name": "Simple Instagram Story Text",
           "type": "video_template",
-          "category": "video_templates",
+          "category": "after_effects",
           "tags": [
             "instagram",
             "story",
@@ -126,15 +111,12 @@
           "license_type": "free",
           "popularity_score": 89,
           "platform": "After Effects",
-          "thumbnail_url": "",
-          "meta_image_url": "https://assets.mixkit.co/site-meta/mixkit-meta-image.png",
-          "category_main": "creative_assets",
-          "index": 5
+          "thumbnail_url": ""
         },
         {
           "name": "Line Drop Lower Third",
           "type": "video_template",
-          "category": "video_templates",
+          "category": "davinci_resolve",
           "tags": [
             "lower_third",
             "professional",
@@ -146,15 +128,12 @@
           "license_type": "free",
           "popularity_score": 86,
           "platform": "DaVinci Resolve",
-          "thumbnail_url": "",
-          "meta_image_url": "https://assets.mixkit.co/site-meta/mixkit-meta-image.png",
-          "category_main": "creative_assets",
-          "index": 6
+          "thumbnail_url": ""
         },
         {
           "name": "Fast Text Transition Title",
           "type": "video_template",
-          "category": "video_templates",
+          "category": "davinci_resolve",
           "tags": [
             "text",
             "transition",
@@ -166,15 +145,12 @@
           "license_type": "free",
           "popularity_score": 84,
           "platform": "DaVinci Resolve",
-          "thumbnail_url": "",
-          "meta_image_url": "https://assets.mixkit.co/site-meta/mixkit-meta-image.png",
-          "category_main": "creative_assets",
-          "index": 7
+          "thumbnail_url": ""
         },
         {
           "name": "CapCut Commercial Templates",
           "type": "video_template",
-          "category": "video_templates",
+          "category": "capcut",
           "tags": [
             "commercial",
             "business",
@@ -186,17 +162,14 @@
           "license_type": "free_with_platform",
           "popularity_score": 82,
           "platform": "CapCut",
-          "thumbnail_url": "",
-          "meta_image_url": "https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "category_main": "creative_assets",
-          "index": 8
+          "thumbnail_url": ""
         }
       ],
       "luts_transitions_overlays": [
         {
           "name": "Fresh LUTs Collection",
           "type": "lut_pack",
-          "category": "luts_transitions_overlays",
+          "category": "color_grading",
           "tags": [
             "cinematic",
             "color_grading",
@@ -208,15 +181,12 @@
           "license_type": "free",
           "popularity_score": 95,
           "platform": "Premiere Pro, DaVinci Resolve, After Effects",
-          "thumbnail_url": "",
-          "meta_image_url": "https://images.pexels.com/photos/3945313/pexels-photo-3945313.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "category_main": "creative_assets",
-          "index": 0
+          "thumbnail_url": ""
         },
         {
           "name": "Color Grading Central 70 Free LUTs",
           "type": "lut_pack",
-          "category": "luts_transitions_overlays",
+          "category": "color_grading",
           "tags": [
             "hollywood",
             "film_look",
@@ -228,15 +198,12 @@
           "license_type": "free",
           "popularity_score": 93,
           "platform": "Premiere Pro, DaVinci Resolve, FCPX",
-          "thumbnail_url": "",
-          "meta_image_url": "https://images.pexels.com/photos/3945313/pexels-photo-3945313.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "category_main": "creative_assets",
-          "index": 1
+          "thumbnail_url": ""
         },
         {
           "name": "Lutify.me Cinematic LUTs",
           "type": "lut_pack",
-          "category": "luts_transitions_overlays",
+          "category": "color_grading",
           "tags": [
             "cinematic",
             "film_emulation",
@@ -248,15 +215,12 @@
           "license_type": "free_with_account",
           "popularity_score": 88,
           "platform": "Multiple",
-          "thumbnail_url": "",
-          "meta_image_url": "https://images.pexels.com/photos/3945313/pexels-photo-3945313.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "category_main": "creative_assets",
-          "index": 2
+          "thumbnail_url": ""
         },
         {
           "name": "Zoom Transition",
           "type": "transition",
-          "category": "luts_transitions_overlays",
+          "category": "premiere_pro",
           "tags": [
             "zoom",
             "blur",
@@ -268,15 +232,12 @@
           "license_type": "free",
           "popularity_score": 89,
           "platform": "Premiere Pro",
-          "thumbnail_url": "",
-          "meta_image_url": "https://assets.mixkit.co/site-meta/mixkit-meta-image.png",
-          "category_main": "creative_assets",
-          "index": 3
+          "thumbnail_url": ""
         },
         {
           "name": "Twirling Bokeh Transition",
           "type": "transition",
-          "category": "luts_transitions_overlays",
+          "category": "premiere_pro",
           "tags": [
             "bokeh",
             "elegant",
@@ -288,15 +249,12 @@
           "license_type": "free",
           "popularity_score": 87,
           "platform": "Premiere Pro",
-          "thumbnail_url": "",
-          "meta_image_url": "https://assets.mixkit.co/site-meta/mixkit-meta-image.png",
-          "category_main": "creative_assets",
-          "index": 4
+          "thumbnail_url": ""
         },
         {
           "name": "Free Light Leaks Collection",
           "type": "overlay",
-          "category": "luts_transitions_overlays",
+          "category": "light_effects",
           "tags": [
             "light_leaks",
             "vintage",
@@ -308,15 +266,12 @@
           "license_type": "free",
           "popularity_score": 91,
           "platform": "Universal",
-          "thumbnail_url": "",
-          "meta_image_url": "https://images.pexels.com/photos/2047905/pexels-photo-2047905.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "category_main": "creative_assets",
-          "index": 5
+          "thumbnail_url": ""
         },
         {
           "name": "Pixabay Video Overlays",
           "type": "overlay",
-          "category": "luts_transitions_overlays",
+          "category": "effects",
           "tags": [
             "overlay",
             "4k",
@@ -328,17 +283,14 @@
           "license_type": "free_commercial",
           "popularity_score": 94,
           "platform": "Universal",
-          "thumbnail_url": "",
-          "meta_image_url": "https://pixabay.com/static/img/logo_square.png",
-          "category_main": "creative_assets",
-          "index": 6
+          "thumbnail_url": ""
         }
       ],
       "canva_psd_figma_templates": [
         {
           "name": "Figma Community Templates",
           "type": "design_template",
-          "category": "canva_psd_figma_templates",
+          "category": "figma",
           "tags": [
             "figma",
             "collaborative",
@@ -350,15 +302,12 @@
           "license_type": "free",
           "popularity_score": 94,
           "platform": "Figma",
-          "thumbnail_url": "",
-          "meta_image_url": "https://static.figma.com/app/icon/1/favicon.png",
-          "category_main": "creative_assets",
-          "index": 0
+          "thumbnail_url": ""
         },
         {
           "name": "Canva Templates",
           "type": "design_template",
-          "category": "canva_psd_figma_templates",
+          "category": "canva",
           "tags": [
             "canva",
             "thousands",
@@ -370,15 +319,12 @@
           "license_type": "free_with_platform",
           "popularity_score": 96,
           "platform": "Canva",
-          "thumbnail_url": "",
-          "meta_image_url": "https://static.canva.com/static/images/fb_og_image_en.png",
-          "category_main": "creative_assets",
-          "index": 1
+          "thumbnail_url": ""
         },
         {
           "name": "Freepik Canva PSD Templates",
           "type": "design_template",
-          "category": "canva_psd_figma_templates",
+          "category": "psd",
           "tags": [
             "psd",
             "canva_style",
@@ -390,17 +336,14 @@
           "license_type": "free_commercial",
           "popularity_score": 88,
           "platform": "Photoshop",
-          "thumbnail_url": "",
-          "meta_image_url": "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "category_main": "creative_assets",
-          "index": 2
+          "thumbnail_url": ""
         }
       ],
       "fonts": [
         {
           "name": "Google Fonts",
           "type": "font_library",
-          "category": "fonts",
+          "category": "web_fonts",
           "tags": [
             "open_source",
             "web_fonts",
@@ -412,15 +355,12 @@
           "license_type": "open_font_license",
           "popularity_score": 98,
           "platform": "Web, Desktop",
-          "thumbnail_url": "",
-          "meta_image_url": "https://fonts.gstatic.com/s/img/og_image.png",
-          "category_main": "creative_assets",
-          "index": 0
+          "thumbnail_url": ""
         },
         {
           "name": "Fontshare",
           "type": "font_library",
-          "category": "fonts",
+          "category": "professional_fonts",
           "tags": [
             "quality",
             "professional",
@@ -432,15 +372,12 @@
           "license_type": "free_commercial",
           "popularity_score": 92,
           "platform": "Desktop, Web",
-          "thumbnail_url": "",
-          "meta_image_url": "https://fontshare.com/images/og-image.png",
-          "category_main": "creative_assets",
-          "index": 1
+          "thumbnail_url": ""
         },
         {
           "name": "Fontesk Commercial Fonts",
           "type": "font_library",
-          "category": "fonts",
+          "category": "commercial_fonts",
           "tags": [
             "commercial_use",
             "curated",
@@ -452,15 +389,12 @@
           "license_type": "free_commercial",
           "popularity_score": 89,
           "platform": "Desktop",
-          "thumbnail_url": "",
-          "meta_image_url": "https://images.pexels.com/photos/261763/pexels-photo-261763.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "category_main": "creative_assets",
-          "index": 2
+          "thumbnail_url": ""
         },
         {
           "name": "Roboto",
           "type": "font",
-          "category": "fonts",
+          "category": "sans_serif",
           "tags": [
             "google",
             "variable",
@@ -472,15 +406,12 @@
           "license_type": "open_font_license",
           "popularity_score": 97,
           "platform": "Universal",
-          "thumbnail_url": "",
-          "meta_image_url": "https://fonts.gstatic.com/s/img/og_image.png",
-          "category_main": "creative_assets",
-          "index": 3
+          "thumbnail_url": ""
         },
         {
           "name": "Open Sans",
           "type": "font",
-          "category": "fonts",
+          "category": "sans_serif",
           "tags": [
             "google",
             "readable",
@@ -492,17 +423,14 @@
           "license_type": "open_font_license",
           "popularity_score": 96,
           "platform": "Universal",
-          "thumbnail_url": "",
-          "meta_image_url": "https://fonts.gstatic.com/s/img/og_image.png",
-          "category_main": "creative_assets",
-          "index": 4
+          "thumbnail_url": ""
         }
       ],
       "sound_fx_music": [
         {
           "name": "Mixkit Sound Effects",
           "type": "sound_library",
-          "category": "sound_fx_music",
+          "category": "sound_effects",
           "tags": [
             "royalty_free",
             "commercial_use",
@@ -514,15 +442,12 @@
           "license_type": "royalty_free",
           "popularity_score": 93,
           "platform": "Universal",
-          "thumbnail_url": "",
-          "meta_image_url": "https://assets.mixkit.co/site-meta/mixkit-meta-image.png",
-          "category_main": "creative_assets",
-          "index": 0
+          "thumbnail_url": ""
         },
         {
           "name": "Pixabay Audio",
           "type": "audio_library",
-          "category": "sound_fx_music",
+          "category": "sound_effects_music",
           "tags": [
             "100k_sounds",
             "commercial_use",
@@ -534,15 +459,12 @@
           "license_type": "pixabay_license",
           "popularity_score": 95,
           "platform": "Universal",
-          "thumbnail_url": "",
-          "meta_image_url": "https://pixabay.com/static/img/logo_square.png",
-          "category_main": "creative_assets",
-          "index": 1
+          "thumbnail_url": ""
         },
         {
           "name": "Freesound",
           "type": "sound_library",
-          "category": "sound_fx_music",
+          "category": "sound_effects",
           "tags": [
             "creative_commons",
             "community",
@@ -554,15 +476,12 @@
           "license_type": "creative_commons",
           "popularity_score": 91,
           "platform": "Universal",
-          "thumbnail_url": "",
-          "meta_image_url": "https://freesound.org/media/images/logo.png",
-          "category_main": "creative_assets",
-          "index": 2
+          "thumbnail_url": ""
         },
         {
           "name": "ZapSplat",
           "type": "audio_library",
-          "category": "sound_fx_music",
+          "category": "sound_effects_music",
           "tags": [
             "160k_sounds",
             "commercial_use",
@@ -574,10 +493,7 @@
           "license_type": "free_with_account",
           "popularity_score": 89,
           "platform": "Universal",
-          "thumbnail_url": "",
-          "meta_image_url": "https://images.pexels.com/photos/164938/pexels-photo-164938.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "category_main": "creative_assets",
-          "index": 3
+          "thumbnail_url": ""
         }
       ],
       "3d_models": [
@@ -596,15 +512,12 @@
           "license_type": "mixed_free_commercial",
           "popularity_score": 92,
           "platform": "Blender, 3ds Max, Maya, etc.",
-          "thumbnail_url": "",
-          "meta_image_url": "https://images.pexels.com/photos/2047905/pexels-photo-2047905.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "category_main": "creative_assets",
-          "index": 0
+          "thumbnail_url": ""
         },
         {
           "name": "BlenderKit",
           "type": "3d_library",
-          "category": "3d_models",
+          "category": "blender_assets",
           "tags": [
             "43k_assets",
             "commercial_license",
@@ -616,15 +529,12 @@
           "license_type": "commercial_noncommercial",
           "popularity_score": 94,
           "platform": "Blender",
-          "thumbnail_url": "",
-          "meta_image_url": "https://images.pexels.com/photos/2047905/pexels-photo-2047905.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "category_main": "creative_assets",
-          "index": 1
+          "thumbnail_url": ""
         },
         {
           "name": "Sports Car",
           "type": "3d_model",
-          "category": "3d_models",
+          "category": "vehicles",
           "tags": [
             "car",
             "sports",
@@ -636,17 +546,14 @@
           "license_type": "free",
           "popularity_score": 88,
           "platform": "Multiple formats",
-          "thumbnail_url": "",
-          "meta_image_url": "https://images.pexels.com/photos/2047905/pexels-photo-2047905.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "category_main": "creative_assets",
-          "index": 2
+          "thumbnail_url": ""
         }
       ],
       "icons_svg": [
         {
           "name": "SVG Repo",
           "type": "icon_library",
-          "category": "icons_svg",
+          "category": "svg_icons",
           "tags": [
             "500k_icons",
             "commercial_use",
@@ -658,15 +565,12 @@
           "license_type": "open_source",
           "popularity_score": 96,
           "platform": "Web, Desktop",
-          "thumbnail_url": "",
-          "meta_image_url": "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "category_main": "creative_assets",
-          "index": 0
+          "thumbnail_url": ""
         },
         {
           "name": "UXWing",
           "type": "icon_library",
-          "category": "icons_svg",
+          "category": "commercial_icons",
           "tags": [
             "commercial_use",
             "no_attribution",
@@ -678,15 +582,12 @@
           "license_type": "commercial_no_attribution",
           "popularity_score": 91,
           "platform": "Web, Desktop",
-          "thumbnail_url": "",
-          "meta_image_url": "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "category_main": "creative_assets",
-          "index": 1
+          "thumbnail_url": ""
         },
         {
           "name": "Flaticon",
           "type": "icon_library",
-          "category": "icons_svg",
+          "category": "icons_stickers",
           "tags": [
             "18m_icons",
             "variety",
@@ -698,15 +599,12 @@
           "license_type": "free_with_attribution",
           "popularity_score": 94,
           "platform": "Web, Desktop",
-          "thumbnail_url": "",
-          "meta_image_url": "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "category_main": "creative_assets",
-          "index": 2
+          "thumbnail_url": ""
         },
         {
           "name": "Icons8",
           "type": "icon_library",
-          "category": "icons_svg",
+          "category": "icons",
           "tags": [
             "1.4m_icons",
             "animated",
@@ -718,17 +616,14 @@
           "license_type": "free_with_link",
           "popularity_score": 93,
           "platform": "Web, Desktop",
-          "thumbnail_url": "",
-          "meta_image_url": "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "category_main": "creative_assets",
-          "index": 3
+          "thumbnail_url": ""
         }
       ],
       "social_media_templates": [
         {
           "name": "Instagram Story Templates",
           "type": "social_media_template",
-          "category": "social_media_templates",
+          "category": "instagram",
           "tags": [
             "instagram",
             "stories",
@@ -740,15 +635,12 @@
           "license_type": "free_with_platform",
           "popularity_score": 92,
           "platform": "Multiple",
-          "thumbnail_url": "",
-          "meta_image_url": "https://static.canva.com/static/images/fb_og_image_en.png",
-          "category_main": "creative_assets",
-          "index": 0
+          "thumbnail_url": ""
         },
         {
           "name": "TikTok Video Templates",
           "type": "social_media_template",
-          "category": "social_media_templates",
+          "category": "tiktok",
           "tags": [
             "tiktok",
             "viral",
@@ -760,15 +652,12 @@
           "license_type": "free_with_platform",
           "popularity_score": 90,
           "platform": "Multiple",
-          "thumbnail_url": "",
-          "meta_image_url": "https://static.canva.com/static/images/fb_og_image_en.png",
-          "category_main": "creative_assets",
-          "index": 1
+          "thumbnail_url": ""
         },
         {
           "name": "YouTube Thumbnail Templates",
           "type": "social_media_template",
-          "category": "social_media_templates",
+          "category": "youtube",
           "tags": [
             "youtube",
             "thumbnails",
@@ -780,10 +669,7 @@
           "license_type": "free_with_platform",
           "popularity_score": 91,
           "platform": "Multiple",
-          "thumbnail_url": "",
-          "meta_image_url": "https://static.canva.com/static/images/fb_og_image_en.png",
-          "category_main": "creative_assets",
-          "index": 2
+          "thumbnail_url": ""
         }
       ]
     },
@@ -792,7 +678,7 @@
         {
           "name": "Canva AI Image Generator",
           "type": "ai_image_generator",
-          "category": "ai_image_generators",
+          "category": "text_to_image",
           "tags": [
             "magic_media",
             "dream_lab",
@@ -804,15 +690,12 @@
           "license_type": "free_limited_pro_full",
           "popularity_score": 92,
           "platform": "Web",
-          "thumbnail_url": "",
-          "meta_image_url": "https://static.canva.com/static/images/fb_og_image_en.png",
-          "category_main": "ai_tools",
-          "index": 0
+          "thumbnail_url": ""
         },
         {
           "name": "CGDream",
           "type": "ai_image_generator",
-          "category": "ai_image_generators",
+          "category": "advanced_ai",
           "tags": [
             "flux_models",
             "3d_integration",
@@ -824,15 +707,12 @@
           "license_type": "free_trial_paid_commercial",
           "popularity_score": 89,
           "platform": "Web",
-          "thumbnail_url": "",
-          "meta_image_url": "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "category_main": "ai_tools",
-          "index": 1
+          "thumbnail_url": ""
         },
         {
           "name": "Adobe Firefly",
           "type": "ai_image_generator",
-          "category": "ai_image_generators",
+          "category": "commercial_safe",
           "tags": [
             "adobe_stock",
             "commercial_safe",
@@ -844,15 +724,12 @@
           "license_type": "commercial_safe",
           "popularity_score": 95,
           "platform": "Web, Adobe Suite",
-          "thumbnail_url": "",
-          "meta_image_url": "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "category_main": "ai_tools",
-          "index": 2
+          "thumbnail_url": ""
         },
         {
           "name": "DALL-E 3 (via ChatGPT)",
           "type": "ai_image_generator",
-          "category": "ai_image_generators",
+          "category": "text_to_image",
           "tags": [
             "openai",
             "chatgpt",
@@ -864,17 +741,14 @@
           "license_type": "usage_rights_vary",
           "popularity_score": 94,
           "platform": "Web, API",
-          "thumbnail_url": "",
-          "meta_image_url": "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "category_main": "ai_tools",
-          "index": 3
+          "thumbnail_url": ""
         }
       ],
       "ai_video_tools": [
         {
           "name": "Runway ML",
           "type": "ai_video_tool",
-          "category": "ai_video_tools",
+          "category": "video_generation",
           "tags": [
             "gen2",
             "text_to_video",
@@ -886,15 +760,12 @@
           "license_type": "freemium",
           "popularity_score": 91,
           "platform": "Web",
-          "thumbnail_url": "",
-          "meta_image_url": "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "category_main": "ai_tools",
-          "index": 0
+          "thumbnail_url": ""
         },
         {
           "name": "Pika Labs",
           "type": "ai_video_tool",
-          "category": "ai_video_tools",
+          "category": "video_generation",
           "tags": [
             "text_to_video",
             "image_to_video",
@@ -905,17 +776,14 @@
           "license_type": "free_with_credits",
           "popularity_score": 87,
           "platform": "Web, Discord",
-          "thumbnail_url": "",
-          "meta_image_url": "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "category_main": "ai_tools",
-          "index": 1
+          "thumbnail_url": ""
         }
       ],
       "ai_voice_cloning_tts": [
         {
           "name": "ElevenLabs",
           "type": "ai_voice_cloning",
-          "category": "ai_voice_cloning_tts",
+          "category": "text_to_speech",
           "tags": [
             "voice_cloning",
             "realistic",
@@ -927,15 +795,12 @@
           "license_type": "freemium_commercial",
           "popularity_score": 95,
           "platform": "Web, API",
-          "thumbnail_url": "",
-          "meta_image_url": "https://elevenlabs.io/og-image.png",
-          "category_main": "ai_tools",
-          "index": 0
+          "thumbnail_url": ""
         },
         {
           "name": "PlayHT",
           "type": "ai_voice_cloning",
-          "category": "ai_voice_cloning_tts",
+          "category": "text_to_speech",
           "tags": [
             "voice_cloning",
             "30_second_sample",
@@ -947,15 +812,12 @@
           "license_type": "freemium_commercial",
           "popularity_score": 91,
           "platform": "Web, API",
-          "thumbnail_url": "",
-          "meta_image_url": "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "category_main": "ai_tools",
-          "index": 1
+          "thumbnail_url": ""
         },
         {
           "name": "Murf AI",
           "type": "ai_voice_cloning",
-          "category": "ai_voice_cloning_tts",
+          "category": "text_to_speech",
           "tags": [
             "professional",
             "voices",
@@ -967,17 +829,14 @@
           "license_type": "freemium_commercial",
           "popularity_score": 88,
           "platform": "Web",
-          "thumbnail_url": "",
-          "meta_image_url": "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "category_main": "ai_tools",
-          "index": 2
+          "thumbnail_url": ""
         }
       ],
       "ai_music_generators": [
         {
           "name": "Suno AI",
           "type": "ai_music_generator",
-          "category": "ai_music_generators",
+          "category": "music_generation",
           "tags": [
             "text_to_music",
             "vocals",
@@ -989,15 +848,12 @@
           "license_type": "free_limited_paid_commercial",
           "popularity_score": 93,
           "platform": "Web",
-          "thumbnail_url": "",
-          "meta_image_url": "https://suno.ai/og-image.png",
-          "category_main": "ai_tools",
-          "index": 0
+          "thumbnail_url": ""
         },
         {
           "name": "Mubert",
           "type": "ai_music_generator",
-          "category": "ai_music_generators",
+          "category": "background_music",
           "tags": [
             "background_music",
             "streaming",
@@ -1009,10 +865,7 @@
           "license_type": "freemium_commercial",
           "popularity_score": 86,
           "platform": "Web, API",
-          "thumbnail_url": "",
-          "meta_image_url": "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "category_main": "ai_tools",
-          "index": 1
+          "thumbnail_url": ""
         }
       ],
       "ai_face_animator": [],
@@ -1020,7 +873,7 @@
         {
           "name": "Hootsuite AI Caption Generator",
           "type": "ai_caption_writer",
-          "category": "ai_caption_script_writers",
+          "category": "social_media",
           "tags": [
             "social_media",
             "facebook",
@@ -1033,15 +886,12 @@
           "license_type": "free",
           "popularity_score": 92,
           "platform": "Web",
-          "thumbnail_url": "",
-          "meta_image_url": "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "category_main": "ai_tools",
-          "index": 0
+          "thumbnail_url": ""
         },
         {
           "name": "Copy.ai Writing Tools",
           "type": "ai_script_writer",
-          "category": "ai_caption_script_writers",
+          "category": "content_writing",
           "tags": [
             "writing",
             "copywriting",
@@ -1053,15 +903,12 @@
           "license_type": "freemium",
           "popularity_score": 90,
           "platform": "Web",
-          "thumbnail_url": "",
-          "meta_image_url": "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "category_main": "ai_tools",
-          "index": 1
+          "thumbnail_url": ""
         },
         {
           "name": "VEED Script Generator",
           "type": "ai_script_writer",
-          "category": "ai_caption_script_writers",
+          "category": "video_scripts",
           "tags": [
             "video_scripts",
             "youtube",
@@ -1073,15 +920,12 @@
           "license_type": "free",
           "popularity_score": 87,
           "platform": "Web",
-          "thumbnail_url": "",
-          "meta_image_url": "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "category_main": "ai_tools",
-          "index": 2
+          "thumbnail_url": ""
         },
         {
           "name": "Canva Magic Write",
           "type": "ai_script_writer",
-          "category": "ai_caption_script_writers",
+          "category": "content_writing",
           "tags": [
             "canva",
             "integrated",
@@ -1093,15 +937,12 @@
           "license_type": "freemium",
           "popularity_score": 89,
           "platform": "Web",
-          "thumbnail_url": "",
-          "meta_image_url": "https://static.canva.com/static/images/fb_og_image_en.png",
-          "category_main": "ai_tools",
-          "index": 3
+          "thumbnail_url": ""
         },
         {
           "name": "Rytr",
           "type": "ai_script_writer",
-          "category": "ai_caption_script_writers",
+          "category": "content_writing",
           "tags": [
             "writing_assistant",
             "content_generator",
@@ -1113,17 +954,14 @@
           "license_type": "freemium",
           "popularity_score": 86,
           "platform": "Web",
-          "thumbnail_url": "",
-          "meta_image_url": "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "category_main": "ai_tools",
-          "index": 4
+          "thumbnail_url": ""
         }
       ],
       "ai_background_remover": [
         {
           "name": "Adobe Express Background Remover",
           "type": "ai_background_remover",
-          "category": "ai_background_remover",
+          "category": "image_editing",
           "tags": [
             "adobe",
             "professional",
@@ -1135,15 +973,12 @@
           "license_type": "free",
           "popularity_score": 93,
           "platform": "Web",
-          "thumbnail_url": "",
-          "meta_image_url": "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "category_main": "ai_tools",
-          "index": 0
+          "thumbnail_url": ""
         },
         {
           "name": "Remove.bg",
           "type": "ai_background_remover",
-          "category": "ai_background_remover",
+          "category": "image_editing",
           "tags": [
             "automatic",
             "no_signup",
@@ -1155,15 +990,12 @@
           "license_type": "freemium",
           "popularity_score": 96,
           "platform": "Web",
-          "thumbnail_url": "",
-          "meta_image_url": "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "category_main": "ai_tools",
-          "index": 1
+          "thumbnail_url": ""
         },
         {
           "name": "PhotoRoom Background Remover",
           "type": "ai_background_remover",
-          "category": "ai_background_remover",
+          "category": "image_editing",
           "tags": [
             "instant",
             "free",
@@ -1175,15 +1007,12 @@
           "license_type": "freemium",
           "popularity_score": 89,
           "platform": "Web, Mobile",
-          "thumbnail_url": "",
-          "meta_image_url": "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "category_main": "ai_tools",
-          "index": 2
+          "thumbnail_url": ""
         },
         {
           "name": "UnlimitedBG",
           "type": "ai_background_remover",
-          "category": "ai_background_remover",
+          "category": "image_editing",
           "tags": [
             "unlimited",
             "free",
@@ -1195,17 +1024,14 @@
           "license_type": "free",
           "popularity_score": 85,
           "platform": "Web",
-          "thumbnail_url": "",
-          "meta_image_url": "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "category_main": "ai_tools",
-          "index": 3
+          "thumbnail_url": ""
         }
       ],
       "ai_social_media_designers": [
         {
           "name": "Canva AI Designer",
           "type": "ai_social_media_designer",
-          "category": "ai_social_media_designers",
+          "category": "automated_design",
           "tags": [
             "canva",
             "automated",
@@ -1217,15 +1043,12 @@
           "license_type": "freemium",
           "popularity_score": 93,
           "platform": "Web",
-          "thumbnail_url": "",
-          "meta_image_url": "https://static.canva.com/static/images/fb_og_image_en.png",
-          "category_main": "ai_tools",
-          "index": 0
+          "thumbnail_url": ""
         },
         {
           "name": "Uizard AI Designer",
           "type": "ai_social_media_designer",
-          "category": "ai_social_media_designers",
+          "category": "ui_design",
           "tags": [
             "ui_design",
             "wireframes",
@@ -1237,355 +1060,7 @@
           "license_type": "freemium",
           "popularity_score": 85,
           "platform": "Web",
-          "thumbnail_url": "",
-          "meta_image_url": "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "category_main": "ai_tools",
-          "index": 1
-
-          def add_ai_tools(database):
-    """AI eszközök hozzáadása"""
-    
-    ai_image_generators = [
-        {
-            "name": "Canva AI Image Generator",
-            "type": "ai_image_generator",
-            "category": "text_to_image",
-            "tags": ["magic_media", "dream_lab", "styles", "commercial"],
-            "description": "Szövegből kép generálás különböző művészeti stílusokban",
-            "source_url": "https://www.canva.com/ai-image-generator/",
-            "license_type": "free_limited_pro_full",
-            "popularity_score": 92,
-            "platform": "Web",
-            "thumbnail_url": ""
-        },
-        # ... (previous image generators remain)
-    ]
-    
-    ai_video_tools = [
-        # ... (previous video tools remain)
-    ]
-    
-    ai_music_generators = [
-        # ... (previous music generators remain)
-    ]
-
-    # NEW AI TOOLS ADDED BELOW
-    
-    ai_voice_cloning_tts = [
-        {
-            "name": "ElevenLabs Free Tier",
-            "type": "ai_voice",
-            "category": "text_to_speech",
-            "tags": ["realistic", "multilingual", "voice_cloning", "api"],
-            "description": "Hiperrealisztikus szövegből beszéd AI ingyenes kerettel",
-            "source_url": "https://elevenlabs.io/",
-            "license_type": "free_tier",
-            "popularity_score": 94,
-            "platform": "Web, API"
-        },
-        {
-            "name": "Murf AI Free Plan",
-            "type": "ai_voice",
-            "category": "text_to_speech",
-            "tags": ["studio_quality", "60+_voices", "commercial", "emotions"],
-            "description": "Stúdióminőségű AI hangok ingyenes csomagban",
-            "source_url": "https://murf.ai/",
-            "license_type": "free_limited",
-            "popularity_score": 88,
-            "platform": "Web"
-        },
-        {
-            "name": "Lovo AI Free Voices",
-            "type": "ai_voice",
-            "category": "voice_cloning",
-            "tags": ["500+_voices", "emotion_control", "voice_generator", "commercial"],
-            "description": "500+ AI hang és korlátozott ingyenes voice cloning",
-            "source_url": "https://lovo.ai/",
-            "license_type": "free_limited",
-            "popularity_score": 86,
-            "platform": "Web"
-        }
-    ]
-    
-    ai_face_animators = [
-        {
-            "name": "D-ID Creative Reality",
-            "type": "ai_face_animator",
-            "category": "talking_avatars",
-            "tags": ["photo_animation", "lip_sync", "api", "commercial"],
-            "description": "Fotókból beszélő avatarok készítése AI-val",
-            "source_url": "https://www.d-id.com/",
-            "license_type": "free_tier",
-            "popularity_score": 89,
-            "platform": "Web, API"
-        },
-        {
-            "name": "HeyGen Free Plan",
-            "type": "ai_face_animator",
-            "category": "avatar_videos",
-            "tags": ["120+_avatars", "multilingual", "templates", "commercial"],
-            "description": "AI avatár videók készítése szövegből ingyenes kerettel",
-            "source_url": "https://www.heygen.com/",
-            "license_type": "free_limited",
-            "popularity_score": 87,
-            "platform": "Web"
-        }
-    ]
-    
-    ai_caption_writers = [
-        {
-            "name": "CapCut AI Captions",
-            "type": "ai_caption_writer",
-            "category": "video_captions",
-            "tags": ["auto_captions", "social_media", "multilingual", "editing"],
-            "description": "Automatikus feliratozás és AI-javított szöveg videókhoz",
-            "source_url": "https://www.capcut.com/",
-            "license_type": "free_commercial",
-            "popularity_score": 91,
-            "platform": "Desktop, Mobile"
-        },
-        {
-            "name": "Submagic AI Captions",
-            "type": "ai_caption_writer",
-            "category": "social_media",
-            "tags": ["short_form", "emojis", "auto_sync", "templates"],
-            "description": "AI generált feliratok rövid formátumú videókhoz emojikkal",
-            "source_url": "https://submagic.co/",
-            "license_type": "free_limited",
-            "popularity_score": 84,
-            "platform": "Web"
-        }
-    ]
-    
-    ai_background_removers = [
-        {
-            "name": "Remove.bg Free",
-            "type": "ai_background_remover",
-            "category": "image_editing",
-            "tags": ["instant", "api", "high_quality", "commercial"],
-            "description": "Azonnali háttértörlés AI-val ingyenes változatban",
-            "source_url": "https://www.remove.bg/",
-            "license_type": "free_limited",
-            "popularity_score": 95,
-            "platform": "Web, API"
-        },
-        {
-            "name": "Adobe Express Background Remover",
-            "type": "ai_background_remover",
-            "category": "image_editing",
-            "tags": ["one_click", "precise", "commercial", "no_watermark"],
-            "description": "Professzionális háttértörlés egy kattintással",
-            "source_url": "https://www.adobe.com/express/feature/image/remove-background",
-            "license_type": "free_commercial",
-            "popularity_score": 93,
-            "platform": "Web"
-        }
-    ]
-    
-    ai_social_media_tools = [
-        {
-            "name": "Canva Magic Design",
-            "type": "ai_social_media_designer",
-            "category": "post_generation",
-            "tags": ["templates", "brand_kit", "auto_resize", "commercial"],
-            "description": "AI generált közösségi média posztok teljes brand stílusban",
-            "source_url": "https://www.canva.com/magic-design/",
-            "license_type": "free_limited_pro_full",
-            "popularity_score": 96,
-            "platform": "Web"
-        },
-        {
-            "name": "Predis.ai Free Plan",
-            "type": "ai_social_media_designer",
-            "category": "content_creation",
-            "tags": ["post_ideas", "hashtags", "carousels", "scheduling"],
-            "description": "AI segítő teljes közösségi média tartalomgyártáshoz",
-            "source_url": "https://predis.ai/",
-            "license_type": "free_limited",
-            "popularity_score": 85,
-            "platform": "Web"
-        }
-    ]
-    
-    ai_writing_tools = [
-        {
-            "name": "ChatGPT Free Version",
-            "type": "ai_writing_assistant",
-            "category": "content_creation",
-            "tags": ["multipurpose", "multilingual", "creative_writing", "research"],
-            "description": "Általános célú AI íróasszisztens ingyenes változatban",
-            "source_url": "https://chat.openai.com/",
-            "license_type": "free_access",
-            "popularity_score": 99,
-            "platform": "Web"
-        },
-        {
-            "name": "Claude Instant",
-            "type": "ai_writing_assistant",
-            "category": "long_form_writing",
-            "tags": ["contextual", "ethical", "summarization", "analysis"],
-            "description": "AI íróasszisztens hosszú kontextusú megértéssel",
-            "source_url": "https://claude.ai/",
-            "license_type": "free_access",
-            "popularity_score": 92,
-            "platform": "Web"
-        },
-        {
-            "name": "Grammarly Free",
-            "type": "ai_writing_assistant",
-            "category": "grammar_checker",
-            "tags": ["real_time", "tone_detection", "plagiarism", "integration"],
-            "description": "Valós idejű helyesírás és stílus javító AI",
-            "source_url": "https://www.grammarly.com/",
-            "license_type": "free_basic",
-            "popularity_score": 97,
-            "platform": "Browser, Desktop"
-        },
-        {
-            "name": "QuillBot Free",
-            "type": "ai_writing_assistant",
-            "category": "paraphrasing",
-            "tags": ["rewriting", "summarizer", "citation", "grammar_check"],
-            "description": "Szöveg átfogalmazó és összefoglaló eszköz AI-val",
-            "source_url": "https://quillbot.com/",
-            "license_type": "free_limited",
-            "popularity_score": 90,
-            "platform": "Web"
-        }
-    ]
-    
-    ai_code_tools = [
-        {
-            "name": "GitHub Copilot Free Tier",
-            "type": "ai_coding_assistant",
-            "category": "code_completion",
-            "tags": ["real_time", "multi_language", "context_aware", "ide_integration"],
-            "description": "Valós idejű kódkiegészítő AI fejlesztőknek",
-            "source_url": "https://github.com/features/copilot",
-            "license_type": "free_for_students",
-            "popularity_score": 96,
-            "platform": "VS Code, JetBrains"
-        },
-        {
-            "name": "Codeium Free Plan",
-            "type": "ai_coding_assistant",
-            "category": "code_generation",
-            "tags": ["unlimited", "private_code", "self_hosting", "api"],
-            "description": "Korlátlan AI kódgenerálás ingyenes csomagban",
-            "source_url": "https://codeium.com/",
-            "license_type": "free_commercial",
-            "popularity_score": 89,
-            "platform": "Web, IDE plugins"
-        }
-    ]
-    
-    ai_productivity_tools = [
-        {
-            "name": "Notion AI Free Tier",
-            "type": "ai_productivity",
-            "category": "knowledge_management",
-            "tags": ["summarization", "task_management", "databases", "templates"],
-            "description": "AI segítő tudásmenedzsmenthez és produktivitáshoz",
-            "source_url": "https://www.notion.so/product/ai",
-            "license_type": "free_limited",
-            "popularity_score": 93,
-            "platform": "Web, Desktop, Mobile"
-        },
-        {
-            "name": "Otter.ai Free Plan",
-            "type": "ai_productivity",
-            "category": "meeting_notes",
-            "tags": ["transcription", "live_summary", "speaker_id", "integration"],
-            "description": "Valós idejű beszédátirat és meeting jegyzetek készítő",
-            "source_url": "https://otter.ai/",
-            "license_type": "free_limited",
-            "popularity_score": 88,
-            "platform": "Web, Mobile"
-        }
-    ]
-    
-    ai_design_tools = [
-        {
-            "name": "Uizard Free Plan",
-            "type": "ai_design_tool",
-            "category": "ui_design",
-            "tags": ["wireframing", "prototyping", "templates", "auto_design"],
-            "description": "AI segítségével UI/UX tervezés kezdőknek és profiknak",
-            "source_url": "https://uizard.io/",
-            "license_type": "free_limited",
-            "popularity_score": 86,
-            "platform": "Web"
-        },
-        {
-            "name": "Khroma Free",
-            "type": "ai_design_tool",
-            "category": "color_palettes",
-            "tags": ["color_combinations", "personalized", "export", "designer"],
-            "description": "AI generált színpaletták személyre szabott preferenciákkal",
-            "source_url": "http://khroma.co/",
-            "license_type": "free_commercial",
-            "popularity_score": 84,
-            "platform": "Web"
-        }
-    ]
-    
-    ai_presentation_tools = [
-        {
-            "name": "Beautiful.ai Free Plan",
-            "type": "ai_presentation_tool",
-            "category": "slide_design",
-            "tags": ["auto_formatting", "templates", "real_time", "branding"],
-            "description": "AI segített prezentációkészítés automatikus formázással",
-            "source_url": "https://www.beautiful.ai/",
-            "license_type": "free_limited",
-            "popularity_score": 87,
-            "platform": "Web"
-        }
-    ]
-    
-    ai_data_analysis = [
-        {
-            "name": "MonkeyLearn Free Tier",
-            "type": "ai_data_analysis",
-            "category": "text_analysis",
-            "tags": ["sentiment", "classification", "extraction", "api"],
-            "description": "Szövegelemzés és adatbányászat AI segítségével",
-            "source_url": "https://monkeylearn.com/",
-            "license_type": "free_limited",
-            "popularity_score": 85,
-            "platform": "Web, API"
-        }
-    ]
-    
-    ai_education_tools = [
-        {
-            "name": "Khanmigo Free Access",
-            "type": "ai_education_tool",
-            "category": "learning_assistant",
-            "tags": ["tutoring", "personalized", "coding", "math"],
-            "description": "AI oktatási asszisztens tanuláshoz és képzéshez",
-            "source_url": "https://www.khanacademy.org/khan-labs",
-            "license_type": "free_access",
-            "popularity_score": 89,
-            "platform": "Web"
-        }
-    ]
-    
-    # Add all new categories to the database
-    database["categories"]["ai_tools"]["ai_voice_cloning_tts"].extend(ai_voice_cloning_tts)
-    database["categories"]["ai_tools"]["ai_face_animator"].extend(ai_face_animators)
-    database["categories"]["ai_tools"]["ai_caption_script_writers"].extend(ai_caption_writers)
-    database["categories"]["ai_tools"]["ai_background_remover"].extend(ai_background_removers)
-    database["categories"]["ai_tools"]["ai_social_media_designers"].extend(ai_social_media_tools)
-    
-    # Add new AI tool categories
-    database["categories"]["ai_tools"]["ai_writing_assistants"] = ai_writing_tools
-    database["categories"]["ai_tools"]["ai_coding_tools"] = ai_code_tools
-    database["categories"]["ai_tools"]["ai_productivity_tools"] = ai_productivity_tools
-    database["categories"]["ai_tools"]["ai_design_tools"] = ai_design_tools
-    database["categories"]["ai_tools"]["ai_presentation_tools"] = ai_presentation_tools
-    database["categories"]["ai_tools"]["ai_data_analysis"] = ai_data_analysis
-    database["categories"]["ai_tools"]["ai_education_tools"] = ai_education_tools
+          "thumbnail_url": ""
         }
       ]
     }
