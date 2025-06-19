@@ -1241,6 +1241,351 @@
           "meta_image_url": "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800",
           "category_main": "ai_tools",
           "index": 1
+
+          def add_ai_tools(database):
+    """AI eszközök hozzáadása"""
+    
+    ai_image_generators = [
+        {
+            "name": "Canva AI Image Generator",
+            "type": "ai_image_generator",
+            "category": "text_to_image",
+            "tags": ["magic_media", "dream_lab", "styles", "commercial"],
+            "description": "Szövegből kép generálás különböző művészeti stílusokban",
+            "source_url": "https://www.canva.com/ai-image-generator/",
+            "license_type": "free_limited_pro_full",
+            "popularity_score": 92,
+            "platform": "Web",
+            "thumbnail_url": ""
+        },
+        # ... (previous image generators remain)
+    ]
+    
+    ai_video_tools = [
+        # ... (previous video tools remain)
+    ]
+    
+    ai_music_generators = [
+        # ... (previous music generators remain)
+    ]
+
+    # NEW AI TOOLS ADDED BELOW
+    
+    ai_voice_cloning_tts = [
+        {
+            "name": "ElevenLabs Free Tier",
+            "type": "ai_voice",
+            "category": "text_to_speech",
+            "tags": ["realistic", "multilingual", "voice_cloning", "api"],
+            "description": "Hiperrealisztikus szövegből beszéd AI ingyenes kerettel",
+            "source_url": "https://elevenlabs.io/",
+            "license_type": "free_tier",
+            "popularity_score": 94,
+            "platform": "Web, API"
+        },
+        {
+            "name": "Murf AI Free Plan",
+            "type": "ai_voice",
+            "category": "text_to_speech",
+            "tags": ["studio_quality", "60+_voices", "commercial", "emotions"],
+            "description": "Stúdióminőségű AI hangok ingyenes csomagban",
+            "source_url": "https://murf.ai/",
+            "license_type": "free_limited",
+            "popularity_score": 88,
+            "platform": "Web"
+        },
+        {
+            "name": "Lovo AI Free Voices",
+            "type": "ai_voice",
+            "category": "voice_cloning",
+            "tags": ["500+_voices", "emotion_control", "voice_generator", "commercial"],
+            "description": "500+ AI hang és korlátozott ingyenes voice cloning",
+            "source_url": "https://lovo.ai/",
+            "license_type": "free_limited",
+            "popularity_score": 86,
+            "platform": "Web"
+        }
+    ]
+    
+    ai_face_animators = [
+        {
+            "name": "D-ID Creative Reality",
+            "type": "ai_face_animator",
+            "category": "talking_avatars",
+            "tags": ["photo_animation", "lip_sync", "api", "commercial"],
+            "description": "Fotókból beszélő avatarok készítése AI-val",
+            "source_url": "https://www.d-id.com/",
+            "license_type": "free_tier",
+            "popularity_score": 89,
+            "platform": "Web, API"
+        },
+        {
+            "name": "HeyGen Free Plan",
+            "type": "ai_face_animator",
+            "category": "avatar_videos",
+            "tags": ["120+_avatars", "multilingual", "templates", "commercial"],
+            "description": "AI avatár videók készítése szövegből ingyenes kerettel",
+            "source_url": "https://www.heygen.com/",
+            "license_type": "free_limited",
+            "popularity_score": 87,
+            "platform": "Web"
+        }
+    ]
+    
+    ai_caption_writers = [
+        {
+            "name": "CapCut AI Captions",
+            "type": "ai_caption_writer",
+            "category": "video_captions",
+            "tags": ["auto_captions", "social_media", "multilingual", "editing"],
+            "description": "Automatikus feliratozás és AI-javított szöveg videókhoz",
+            "source_url": "https://www.capcut.com/",
+            "license_type": "free_commercial",
+            "popularity_score": 91,
+            "platform": "Desktop, Mobile"
+        },
+        {
+            "name": "Submagic AI Captions",
+            "type": "ai_caption_writer",
+            "category": "social_media",
+            "tags": ["short_form", "emojis", "auto_sync", "templates"],
+            "description": "AI generált feliratok rövid formátumú videókhoz emojikkal",
+            "source_url": "https://submagic.co/",
+            "license_type": "free_limited",
+            "popularity_score": 84,
+            "platform": "Web"
+        }
+    ]
+    
+    ai_background_removers = [
+        {
+            "name": "Remove.bg Free",
+            "type": "ai_background_remover",
+            "category": "image_editing",
+            "tags": ["instant", "api", "high_quality", "commercial"],
+            "description": "Azonnali háttértörlés AI-val ingyenes változatban",
+            "source_url": "https://www.remove.bg/",
+            "license_type": "free_limited",
+            "popularity_score": 95,
+            "platform": "Web, API"
+        },
+        {
+            "name": "Adobe Express Background Remover",
+            "type": "ai_background_remover",
+            "category": "image_editing",
+            "tags": ["one_click", "precise", "commercial", "no_watermark"],
+            "description": "Professzionális háttértörlés egy kattintással",
+            "source_url": "https://www.adobe.com/express/feature/image/remove-background",
+            "license_type": "free_commercial",
+            "popularity_score": 93,
+            "platform": "Web"
+        }
+    ]
+    
+    ai_social_media_tools = [
+        {
+            "name": "Canva Magic Design",
+            "type": "ai_social_media_designer",
+            "category": "post_generation",
+            "tags": ["templates", "brand_kit", "auto_resize", "commercial"],
+            "description": "AI generált közösségi média posztok teljes brand stílusban",
+            "source_url": "https://www.canva.com/magic-design/",
+            "license_type": "free_limited_pro_full",
+            "popularity_score": 96,
+            "platform": "Web"
+        },
+        {
+            "name": "Predis.ai Free Plan",
+            "type": "ai_social_media_designer",
+            "category": "content_creation",
+            "tags": ["post_ideas", "hashtags", "carousels", "scheduling"],
+            "description": "AI segítő teljes közösségi média tartalomgyártáshoz",
+            "source_url": "https://predis.ai/",
+            "license_type": "free_limited",
+            "popularity_score": 85,
+            "platform": "Web"
+        }
+    ]
+    
+    ai_writing_tools = [
+        {
+            "name": "ChatGPT Free Version",
+            "type": "ai_writing_assistant",
+            "category": "content_creation",
+            "tags": ["multipurpose", "multilingual", "creative_writing", "research"],
+            "description": "Általános célú AI íróasszisztens ingyenes változatban",
+            "source_url": "https://chat.openai.com/",
+            "license_type": "free_access",
+            "popularity_score": 99,
+            "platform": "Web"
+        },
+        {
+            "name": "Claude Instant",
+            "type": "ai_writing_assistant",
+            "category": "long_form_writing",
+            "tags": ["contextual", "ethical", "summarization", "analysis"],
+            "description": "AI íróasszisztens hosszú kontextusú megértéssel",
+            "source_url": "https://claude.ai/",
+            "license_type": "free_access",
+            "popularity_score": 92,
+            "platform": "Web"
+        },
+        {
+            "name": "Grammarly Free",
+            "type": "ai_writing_assistant",
+            "category": "grammar_checker",
+            "tags": ["real_time", "tone_detection", "plagiarism", "integration"],
+            "description": "Valós idejű helyesírás és stílus javító AI",
+            "source_url": "https://www.grammarly.com/",
+            "license_type": "free_basic",
+            "popularity_score": 97,
+            "platform": "Browser, Desktop"
+        },
+        {
+            "name": "QuillBot Free",
+            "type": "ai_writing_assistant",
+            "category": "paraphrasing",
+            "tags": ["rewriting", "summarizer", "citation", "grammar_check"],
+            "description": "Szöveg átfogalmazó és összefoglaló eszköz AI-val",
+            "source_url": "https://quillbot.com/",
+            "license_type": "free_limited",
+            "popularity_score": 90,
+            "platform": "Web"
+        }
+    ]
+    
+    ai_code_tools = [
+        {
+            "name": "GitHub Copilot Free Tier",
+            "type": "ai_coding_assistant",
+            "category": "code_completion",
+            "tags": ["real_time", "multi_language", "context_aware", "ide_integration"],
+            "description": "Valós idejű kódkiegészítő AI fejlesztőknek",
+            "source_url": "https://github.com/features/copilot",
+            "license_type": "free_for_students",
+            "popularity_score": 96,
+            "platform": "VS Code, JetBrains"
+        },
+        {
+            "name": "Codeium Free Plan",
+            "type": "ai_coding_assistant",
+            "category": "code_generation",
+            "tags": ["unlimited", "private_code", "self_hosting", "api"],
+            "description": "Korlátlan AI kódgenerálás ingyenes csomagban",
+            "source_url": "https://codeium.com/",
+            "license_type": "free_commercial",
+            "popularity_score": 89,
+            "platform": "Web, IDE plugins"
+        }
+    ]
+    
+    ai_productivity_tools = [
+        {
+            "name": "Notion AI Free Tier",
+            "type": "ai_productivity",
+            "category": "knowledge_management",
+            "tags": ["summarization", "task_management", "databases", "templates"],
+            "description": "AI segítő tudásmenedzsmenthez és produktivitáshoz",
+            "source_url": "https://www.notion.so/product/ai",
+            "license_type": "free_limited",
+            "popularity_score": 93,
+            "platform": "Web, Desktop, Mobile"
+        },
+        {
+            "name": "Otter.ai Free Plan",
+            "type": "ai_productivity",
+            "category": "meeting_notes",
+            "tags": ["transcription", "live_summary", "speaker_id", "integration"],
+            "description": "Valós idejű beszédátirat és meeting jegyzetek készítő",
+            "source_url": "https://otter.ai/",
+            "license_type": "free_limited",
+            "popularity_score": 88,
+            "platform": "Web, Mobile"
+        }
+    ]
+    
+    ai_design_tools = [
+        {
+            "name": "Uizard Free Plan",
+            "type": "ai_design_tool",
+            "category": "ui_design",
+            "tags": ["wireframing", "prototyping", "templates", "auto_design"],
+            "description": "AI segítségével UI/UX tervezés kezdőknek és profiknak",
+            "source_url": "https://uizard.io/",
+            "license_type": "free_limited",
+            "popularity_score": 86,
+            "platform": "Web"
+        },
+        {
+            "name": "Khroma Free",
+            "type": "ai_design_tool",
+            "category": "color_palettes",
+            "tags": ["color_combinations", "personalized", "export", "designer"],
+            "description": "AI generált színpaletták személyre szabott preferenciákkal",
+            "source_url": "http://khroma.co/",
+            "license_type": "free_commercial",
+            "popularity_score": 84,
+            "platform": "Web"
+        }
+    ]
+    
+    ai_presentation_tools = [
+        {
+            "name": "Beautiful.ai Free Plan",
+            "type": "ai_presentation_tool",
+            "category": "slide_design",
+            "tags": ["auto_formatting", "templates", "real_time", "branding"],
+            "description": "AI segített prezentációkészítés automatikus formázással",
+            "source_url": "https://www.beautiful.ai/",
+            "license_type": "free_limited",
+            "popularity_score": 87,
+            "platform": "Web"
+        }
+    ]
+    
+    ai_data_analysis = [
+        {
+            "name": "MonkeyLearn Free Tier",
+            "type": "ai_data_analysis",
+            "category": "text_analysis",
+            "tags": ["sentiment", "classification", "extraction", "api"],
+            "description": "Szövegelemzés és adatbányászat AI segítségével",
+            "source_url": "https://monkeylearn.com/",
+            "license_type": "free_limited",
+            "popularity_score": 85,
+            "platform": "Web, API"
+        }
+    ]
+    
+    ai_education_tools = [
+        {
+            "name": "Khanmigo Free Access",
+            "type": "ai_education_tool",
+            "category": "learning_assistant",
+            "tags": ["tutoring", "personalized", "coding", "math"],
+            "description": "AI oktatási asszisztens tanuláshoz és képzéshez",
+            "source_url": "https://www.khanacademy.org/khan-labs",
+            "license_type": "free_access",
+            "popularity_score": 89,
+            "platform": "Web"
+        }
+    ]
+    
+    # Add all new categories to the database
+    database["categories"]["ai_tools"]["ai_voice_cloning_tts"].extend(ai_voice_cloning_tts)
+    database["categories"]["ai_tools"]["ai_face_animator"].extend(ai_face_animators)
+    database["categories"]["ai_tools"]["ai_caption_script_writers"].extend(ai_caption_writers)
+    database["categories"]["ai_tools"]["ai_background_remover"].extend(ai_background_removers)
+    database["categories"]["ai_tools"]["ai_social_media_designers"].extend(ai_social_media_tools)
+    
+    # Add new AI tool categories
+    database["categories"]["ai_tools"]["ai_writing_assistants"] = ai_writing_tools
+    database["categories"]["ai_tools"]["ai_coding_tools"] = ai_code_tools
+    database["categories"]["ai_tools"]["ai_productivity_tools"] = ai_productivity_tools
+    database["categories"]["ai_tools"]["ai_design_tools"] = ai_design_tools
+    database["categories"]["ai_tools"]["ai_presentation_tools"] = ai_presentation_tools
+    database["categories"]["ai_tools"]["ai_data_analysis"] = ai_data_analysis
+    database["categories"]["ai_tools"]["ai_education_tools"] = ai_education_tools
         }
       ]
     }
